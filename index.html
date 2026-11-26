@@ -1,0 +1,1729 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TEMPLE — Nutrición con Arte | Mónica Rosa Terra</title>
+<meta name="description" content="TEMPLE: coaching nutricional de alto rendimiento para atletas y escuelas de tauromaquia. Mónica Rosa Terra, 20 años de experiencia en nutrición deportiva de élite. Almuñécar, Granada.">
+<meta name="theme-color" content="#0a1c16">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://rafalillo97-ui.github.io/temple-nutricion-web/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta property="og:site_name" content="TEMPLE">
+<meta property="og:title" content="TEMPLE — Nutrición con Arte | Mónica Rosa Terra">
+<meta property="og:description" content="TEMPLE: coaching nutricional de alto rendimiento para atletas y escuelas de tauromaquia. Mónica Rosa Terra, 20 años de experiencia en nutrición deportiva de élite. Almuñécar, Granada.">
+<meta property="og:url" content="https://rafalillo97-ui.github.io/temple-nutricion-web/">
+<meta property="og:image" content="https://rafalillo97-ui.github.io/temple-nutricion-web/assets/og-temple.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/logo-192.png">
+<link rel="apple-touch-icon" href="assets/logo-192.png">
+<link rel="preload" href="assets/fonts/jost.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/playfair-display.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/hero-torero.jpg" as="image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ProfessionalService", "name": "TEMPLE", "slogan": "Nutrición con arte", "description": "TEMPLE: coaching nutricional de alto rendimiento para atletas y escuelas de tauromaquia. Mónica Rosa Terra, 20 años de experiencia en nutrición deportiva de élite. Almuñécar, Granada.", "url": "https://rafalillo97-ui.github.io/temple-nutricion-web/", "image": "https://rafalillo97-ui.github.io/temple-nutricion-web/assets/og-temple.jpg", "logo": "https://rafalillo97-ui.github.io/temple-nutricion-web/assets/logo-192.png", "email": "templecoachingnutricional@gmail.com", "founder": {"@type": "Person", "name": "Mónica Rosa Terra", "jobTitle": "Coach Nutricional de Alto Rendimiento"}, "address": {"@type": "PostalAddress", "addressLocality": "Granada", "addressCountry": "ES"}, "sameAs": ["https://www.instagram.com/templecoachingnutricional/", "https://www.facebook.com/profile.php?id=61594261478376", "https://www.linkedin.com/in/monica-rosa-b84281161/"]}</script>
+<style>
+/* ================================================================
+   TEMPLE · versión 2
+   Sol y sombra: secciones oscuras en verde sombra (nunca negro) para la marca,
+   el método y la tienda; secciones claras en blanco roto para las personas y
+   los servicios. Títulos en columna de margen, fotografía grande y el oro
+   usado solo como luz: filetes, títulos y botones.
+   ================================================================ */
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:400 900;font-display:swap;src:url('assets/fonts/playfair-display.woff2') format('woff2');}
+@font-face{font-family:'Playfair Display';font-style:italic;font-weight:400 900;font-display:swap;src:url('assets/fonts/playfair-display-italic.woff2') format('woff2');}
+@font-face{font-family:'Jost';font-style:normal;font-weight:100 900;font-display:swap;src:url('assets/fonts/jost.woff2') format('woff2');}
+
+:root{
+  --sombra:#0a1c16;        /* verde casi negro, mate: el fondo más oscuro */
+  --verde:#123a2e;         /* verde de marca */
+  --verde2:#0c2921;
+  --crema:#f5efe0;         /* blanco roto sobre oscuro */
+  --fondo:#f6f1e4;         /* blanco roto de las secciones claras */
+  --arena:#ecdfc4;         /* albero claro */
+  --dorado:#e6bd3a;        /* oro brillante */
+  --dorado-mate:#8f6f1f;   /* oro para texto sobre claro */
+  --vino:#6f1631;
+  --tinta:#16241e;         /* texto sobre claro: verde tinta */
+  --display:'Playfair Display','Iowan Old Style','Palatino Linotype',Georgia,serif;
+  --texto:'Jost','Avenir Next','Segoe UI',system-ui,sans-serif;
+  --gutter:clamp(1.2rem,5vw,3.4rem);
+  --max:1220px;
+  --header-h:76px;
+  --sec:clamp(4.5rem,11vh,8rem);
+  --filete:rgba(230,189,58,.26);
+  color-scheme:light;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html{overflow-x:clip;scroll-behavior:smooth;-webkit-text-size-adjust:100%;}
+html.menu-lock{overflow:hidden;}
+body{background:var(--fondo);color:var(--tinta);font-family:var(--texto);font-size:1.0625rem;line-height:1.7;overflow-x:clip;-webkit-font-smoothing:antialiased;}
+h1,h2,h3{font-family:var(--display);font-weight:700;line-height:1.05;text-wrap:balance;}
+a{color:inherit;text-decoration:none;}
+img{max-width:100%;display:block;}
+button{font-family:inherit;}
+section{position:relative;}
+section[id],footer[id]{scroll-margin-top:calc(var(--header-h) - 1px);}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--gutter);}
+::selection{background:var(--dorado);color:#1a1405;}
+:focus-visible{outline:2px solid var(--dorado);outline-offset:3px;}
+.retrato-section :focus-visible,.claves-section :focus-visible,.servicios-section :focus-visible,.mujeres-section :focus-visible{outline-color:var(--vino);}
+
+.mk-progress{position:fixed;top:0;left:0;right:0;height:3px;background:var(--dorado);transform:scaleX(0);transform-origin:left;z-index:9500;pointer-events:none;}
+
+/* ---------- Cabecera ---------- */
+.site-header{position:fixed;top:0;left:0;right:0;z-index:9000;height:var(--header-h);display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:0 clamp(1rem,2.4vw,1.9rem);background:color-mix(in srgb, var(--verde2) 90%, transparent);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid rgba(230,189,58,.18);}
+.site-header .brand{display:flex;align-items:center;gap:.65rem;min-width:0;flex-shrink:0;}
+.site-header .brand > img{height:46px;width:auto;object-fit:contain;flex-shrink:0;}
+.site-header .brand-text{display:flex;flex-direction:column;line-height:1.15;min-width:0;}
+.site-header .brand-wordmark{height:20px;width:auto;object-fit:contain;}
+.site-header .brand-text span{font-size:.5rem;letter-spacing:.13em;text-transform:uppercase;color:#fff;opacity:1;white-space:nowrap;text-align:left;contain:inline-size;}
+@media (max-width:480px){
+  .site-header .brand > img{height:38px;}
+  .site-header .brand-wordmark{height:17px;}
+  .site-header .brand-text span{display:none;}
+}
+.site-nav{display:flex;align-items:center;gap:clamp(1.1rem,2.3vw,2.4rem);}
+.site-nav a{position:relative;font-size:.86rem;letter-spacing:.05em;color:var(--crema);opacity:.8;padding:.5em 0;white-space:nowrap;transition:opacity .2s,color .2s;}
+.site-nav a::after{content:"";position:absolute;left:0;right:0;bottom:.15em;height:1px;background:var(--dorado);transform:scaleX(0);transform-origin:left;transition:transform .3s ease;}
+.site-nav a:hover,.site-nav a[aria-current]{opacity:1;color:var(--dorado);}
+.site-nav a:hover::after,.site-nav a[aria-current]::after{transform:scaleX(1);}
+.site-nav .nav-contacto{display:none;}
+.site-header .mid{display:flex;align-items:center;gap:1rem;flex-shrink:0;}
+.phone-link{display:flex;align-items:center;gap:.5rem;font-weight:500;font-size:.86rem;letter-spacing:.05em;white-space:nowrap;color:#1a1405;background:var(--dorado);padding:.55em 1.15em;transition:background .2s;}
+.phone-link:hover{background:#f3d163;}
+.phone-link svg{width:15px;height:15px;flex-shrink:0;}
+.menu-btn{display:none;width:40px;height:40px;border:1px solid rgba(230,189,58,.4);border-radius:50%;background:transparent;cursor:pointer;flex-direction:column;align-items:center;justify-content:center;gap:6px;flex-shrink:0;}
+.menu-btn span{display:block;width:16px;height:1.5px;background:var(--dorado);transition:transform .3s;}
+.is-menu-open .menu-btn span:first-child{transform:translateY(3.75px) rotate(45deg);}
+.is-menu-open .menu-btn span:last-child{transform:translateY(-3.75px) rotate(-45deg);}
+@media (max-width:1060px){
+  .menu-btn{display:flex;}
+  .site-header .phone-link{display:none;}
+  .site-nav{position:absolute;top:100%;left:0;right:0;height:calc(100dvh - var(--header-h));flex-direction:column;align-items:flex-start;gap:0;padding:1.4rem var(--gutter) 2.4rem;background:var(--sombra);overflow-y:auto;opacity:0;visibility:hidden;transform:translateY(-10px);transition:opacity .25s,transform .25s,visibility .25s;}
+  .is-menu-open .site-nav{opacity:1;visibility:visible;transform:none;}
+  .site-nav a{width:100%;font-family:var(--display);font-size:clamp(1.7rem,7vw,2.3rem);letter-spacing:0;font-weight:600;opacity:1;padding:.5em 0;border-bottom:1px solid rgba(230,189,58,.16);}
+  .site-nav a::after{display:none;}
+  .site-nav .nav-contacto{display:block;color:var(--dorado);border-bottom:none;}
+}
+
+/* ---------- Portada (composición aprobada por la clienta) ---------- */
+.hero{min-height:100svh;display:flex;align-items:flex-end;background-color:#090b08;background-size:cover;background-repeat:no-repeat;background-position:calc(65vw - 76.51vh) center;}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(10deg, rgba(6,14,11,.86) 4%, rgba(6,14,11,.24) 46%, rgba(6,14,11,.5) 100%);}
+.hero-inner{position:relative;z-index:2;color:var(--crema);padding:clamp(6rem,20vh,9rem) clamp(1.2rem,5vw,3.4rem) clamp(3rem,8vh,5rem);max-width:var(--max);margin:0 auto;width:100%;}
+.hero-brand{display:flex;align-items:center;gap:1.1rem;}
+.hero-logo-wrap{position:relative;display:block;flex-shrink:0;line-height:0;}
+.hero-brand img.hero-logo{height:clamp(120px,16vw,200px);width:auto;filter:drop-shadow(0 4px 18px rgba(0,0,0,.5));}
+.hero-brand-text{display:flex;flex-direction:column;gap:.35em;}
+.hero-brand img.hero-wordmark{height:clamp(34px,4.8vw,56px);width:auto;}
+.hero h1{font-family:var(--texto);font-size:clamp(.95rem,1.7vw,1.3rem);font-weight:500;line-height:1.2;letter-spacing:.32em;text-transform:uppercase;color:var(--crema);text-shadow:0 3px 14px rgba(0,0,0,.6);text-align:left;white-space:nowrap;contain:inline-size;text-wrap:nowrap;}
+@media (max-width:893px){.hero h1{font-size:clamp(.625rem,3.2vw,.8rem);}}
+.hero-claim{margin-top:clamp(2.6rem,9vh,4.5rem);font-size:clamp(.68rem,1.35vw,.98rem);font-weight:500;color:var(--crema);line-height:1.6;white-space:nowrap;}
+@media (max-width:640px){.hero-claim{white-space:normal;max-width:340px;}}
+.hero-scroll{position:absolute;right:clamp(1.2rem,5vw,3.4rem);bottom:2.4rem;z-index:2;color:var(--crema);opacity:.6;writing-mode:vertical-rl;font-size:.72rem;letter-spacing:.24em;text-transform:uppercase;display:flex;align-items:center;gap:.8em;}
+.hero-scroll::after{content:"";width:1px;height:52px;background:var(--dorado);}
+@media (max-width:640px){.hero-scroll{display:none;}}
+/* El único momento de movimiento: entra la marca y un brillo recorre el oro del logo */
+@media (prefers-reduced-motion:no-preference){
+  .hero-logo-wrap{animation:entra .9s .1s cubic-bezier(.2,.7,.2,1) both;}
+  .hero-brand-text{animation:entra .9s .3s cubic-bezier(.2,.7,.2,1) both;}
+  .hero-claim{animation:entra .9s .55s cubic-bezier(.2,.7,.2,1) both;}
+  .hero-logo-wrap::after{content:"";position:absolute;inset:0;background:linear-gradient(105deg, transparent 42%, rgba(255,246,206,.9) 50%, transparent 58%) no-repeat;background-size:260% 100%;background-position:130% 0;-webkit-mask:url('assets/logo.webp') center/contain no-repeat;mask:url('assets/logo.webp') center/contain no-repeat;mix-blend-mode:screen;animation:brillo 2.4s 1.1s ease-out both;pointer-events:none;}
+  .hero-scroll::after{transform-origin:top;animation:crece 1.8s ease-in-out infinite alternate;}
+}
+@keyframes entra{from{opacity:0;transform:translateY(16px);}}
+@keyframes brillo{to{background-position:-70% 0;}}
+@keyframes crece{from{transform:scaleY(.35);}to{transform:scaleY(1);}}
+
+/* ---------- Botones y títulos ---------- */
+.cta-big{display:inline-flex;align-items:center;justify-content:center;gap:.6em;background:var(--dorado);color:#1a1405;border:1px solid var(--dorado);padding:.95em 2em;font-family:var(--texto);font-weight:500;font-size:.95rem;letter-spacing:.06em;white-space:nowrap;cursor:pointer;transition:background .25s,color .25s,transform .25s;}
+.cta-big:hover{background:#f3d163;transform:translateY(-2px);}
+.cta-big.alt{background:transparent;color:var(--dorado);}
+.cta-big.alt:hover{background:var(--dorado);color:#1a1405;}
+.cta-big svg{width:18px;height:18px;flex-shrink:0;}
+.label{font-family:var(--display);font-style:italic;font-weight:600;font-size:clamp(1.05rem,2vw,1.25rem);color:var(--vino);margin-bottom:.5em;}
+.on-dark .label{color:var(--dorado);}
+.marginalia{display:flex;gap:1.6rem;align-items:baseline;margin-bottom:clamp(2rem,5vh,3.2rem);}
+.marginalia .mtitle{font-size:clamp(2.4rem,5.4vw,4.1rem);letter-spacing:-.012em;}
+.marginalia .mtitle em{font-style:italic;font-weight:600;color:var(--dorado-mate);}
+.on-dark .marginalia .mtitle em,.escuelas-section .mtitle em,.tienda-section .mtitle em{color:var(--dorado);}
+.mtitle-wordmark{display:inline-block;height:.68em;width:auto;vertical-align:-0.05em;margin-left:.1em;}
+
+/* ---------- Apertura: la cita, frase a frase, junto al plato dibujado como un ruedo ---------- */
+.apertura{background:var(--verde);color:var(--crema);padding:clamp(4.5rem,11vh,7.5rem) 0;overflow:hidden;}
+.apertura-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);gap:clamp(2rem,5vw,4.5rem);align-items:center;}
+.apertura .mark{font-family:var(--display);font-style:italic;font-size:clamp(5rem,10vw,8rem);color:var(--dorado);line-height:.6;height:.42em;}
+.apertura blockquote{font-family:var(--display);font-style:italic;font-weight:500;font-size:clamp(1.18rem,2.05vw,1.7rem);line-height:1.45;}
+.apertura .frase{display:block;text-wrap:pretty;}
+.apertura .frase + .frase{margin-top:.75em;}
+.apertura .fuerte{display:block;margin-top:.8em;color:var(--dorado);font-weight:800;font-style:normal;font-size:1.7em;line-height:1.1;letter-spacing:-.01em;}
+.plato{margin:0;justify-self:end;width:100%;max-width:430px;color:var(--dorado);}
+.plato-svg{display:block;width:100%;height:auto;}
+@media (max-width:860px){
+  .apertura-grid{grid-template-columns:1fr;}
+  .plato{justify-self:center;max-width:280px;}
+}
+
+/* ---------- Sobre Mónica ---------- */
+.retrato-section{padding:var(--sec) 0 0;background:var(--fondo);}
+.retrato-grid{display:grid;grid-template-columns:minmax(0,.62fr) minmax(0,1fr);gap:clamp(2.4rem,6vw,5rem);align-items:start;}
+@media (min-width:841px){.retrato-grid > div:first-child{position:sticky;top:calc(var(--header-h) + 2.2rem);}}
+@media (max-width:840px){.retrato-grid{grid-template-columns:1fr;}}
+.retrato-figure{position:relative;}
+.retrato-figure img{width:92%;height:auto;aspect-ratio:1/1;object-fit:cover;filter:contrast(1.04);border-radius:50%;border:3px solid var(--dorado);box-shadow:0 24px 60px rgba(22,36,30,.28);}
+.retrato-tag{position:absolute;bottom:-1.6rem;left:-1.2rem;background:var(--vino);color:var(--crema);padding:1rem 1.4rem;max-width:none;width:max-content;box-shadow:0 20px 40px rgba(22,36,30,.28);}
+.retrato-tag .rt-name{font-family:var(--display);font-weight:700;font-size:1.15rem;line-height:1.3;}
+.retrato-tag .rt-role{font-size:.72rem;letter-spacing:.1em;white-space:nowrap;text-transform:uppercase;margin-top:.3em;color:var(--dorado);line-height:1.4;}
+@media (max-width:640px){.retrato-tag{left:0;padding:.9rem 1rem;}.retrato-tag .rt-role{font-size:clamp(.5rem,2.7vw,.72rem);letter-spacing:.06em;}}
+.retrato-stats{display:flex;gap:clamp(1.6rem,4vw,3rem);margin-top:3.6rem;padding-top:1.4rem;border-top:1px solid rgba(22,36,30,.14);}
+.retrato-stats .rs-num{display:block;font-family:var(--display);font-weight:800;font-size:clamp(2.6rem,5vw,3.6rem);color:var(--vino);line-height:1;font-variant-numeric:lining-nums;}
+.retrato-stats .rs-label{font-size:.74rem;letter-spacing:.07em;text-transform:uppercase;opacity:.7;margin-top:.5em;max-width:14ch;line-height:1.45;}
+.retrato-text p{font-size:clamp(1.05rem,1.45vw,1.2rem);line-height:1.8;font-weight:350;max-width:58ch;text-align:justify;text-wrap:pretty;}
+.retrato-text p.label{font-size:clamp(1.05rem,2vw,1.25rem);font-weight:600;line-height:1.4;text-align:left;}
+.retrato-text p + p{margin-top:1.1em;}
+.retrato-text p.lead::first-letter{font-family:var(--display);font-weight:800;font-size:3.5em;float:left;line-height:.78;padding:.04em .09em 0 0;color:var(--vino);}
+
+/* ---------- Trayectoria: tira de fotos que se recorre a mano ---------- */
+.retrato-banner{margin-top:var(--sec);background:var(--arena);padding:clamp(2.2rem,5vh,3.2rem) 0 clamp(2.4rem,5vh,3.4rem);}
+.tray-head{max-width:var(--max);margin:0 auto 1.4rem;padding:0 var(--gutter);display:flex;align-items:flex-end;justify-content:space-between;gap:1.2rem;}
+.retrato-banner .rb-label{font-family:var(--display);font-style:italic;font-weight:600;font-size:clamp(1.25rem,2.6vw,1.75rem);line-height:1.2;color:var(--tinta);}
+.tray-nav{display:flex;gap:.6rem;flex-shrink:0;}
+.tray-nav button{width:44px;height:44px;border-radius:50%;border:1px solid var(--tinta);background:transparent;color:var(--tinta);font-size:1.35rem;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;padding-bottom:3px;transition:background .2s,color .2s,opacity .2s;}
+.tray-nav button:hover:not(:disabled){background:var(--tinta);color:var(--crema);}
+.tray-track{display:flex;gap:1rem;overflow-x:auto;padding:0 max(var(--gutter), calc((100vw - var(--max)) / 2 + var(--gutter))) .4rem;scrollbar-width:none;}
+.tray-track::-webkit-scrollbar{display:none;}
+.rb-card{position:relative;flex:0 0 clamp(200px,23vw,290px);aspect-ratio:4/5;overflow:hidden;background:var(--tinta);}
+.rb-card img{width:100%;height:100%;object-fit:cover;filter:grayscale(.35) contrast(1.05);transition:transform .6s ease;}
+.rb-card:hover img{transform:scale(1.03);}
+.rb-card span{position:absolute;left:0;right:0;bottom:0;padding:2.6em .9em .8em;background:linear-gradient(0deg, rgba(10,28,22,.92), transparent);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--crema);line-height:1.4;}
+
+/* ---------- El método: tres paneles que se apilan al bajar ---------- */
+.tercios-section{padding:var(--sec) 0;background:var(--sombra);color:var(--crema);}
+.tercios-intro{max-width:64ch;font-size:clamp(1rem,1.35vw,1.14rem);font-weight:350;line-height:1.8;text-align:justify;text-wrap:pretty;color:rgba(245,239,224,.88);}
+.tercios-intro p + p{margin-top:1em;}
+.tercios-intro p:first-child{font-family:var(--display);font-style:italic;font-weight:500;font-size:clamp(1.25rem,2.7vw,2.1rem);line-height:1.28;color:var(--dorado);text-align:left;margin-bottom:.9em;}
+.tercios-intro .linea{display:block;}
+.temple-word-img{display:inline-block;height:1em;width:auto;vertical-align:-.14em;margin-right:.08em;}
+@media (min-width:960px){
+  .tercios-section > .wrap{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);column-gap:clamp(2rem,5vw,5rem);}
+  .tercios-section .marginalia{grid-column:1;grid-row:1;position:sticky;top:calc(var(--header-h) + 2.2rem);align-self:start;margin-bottom:0;}
+  .tercios-intro{grid-column:2;grid-row:1;}
+  .tercios{grid-column:1 / -1;grid-row:2;}
+}
+.tercios{margin-top:clamp(3rem,8vh,5rem);display:grid;gap:1.4rem;}
+.tercio{position:relative;display:grid;grid-template-columns:1fr;background:var(--verde);border:1px solid var(--filete);overflow:hidden;}
+.tercio:nth-child(1){--n:1;}
+.tercio:nth-child(2){--n:2;}
+.tercio:nth-child(3){--n:3;}
+.tercio-media{position:relative;aspect-ratio:16/10;overflow:hidden;}
+.tercio-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+.tercio:nth-child(1) .tercio-media img{object-position:38% 40%;}
+.tercio:nth-child(2) .tercio-media img{object-position:62% 30%;}
+.tercio-body{position:relative;padding:clamp(1.6rem,4vw,3.6rem);display:flex;flex-direction:column;justify-content:center;}
+/* El anillo se completa un tercio en cada paso: el círculo del logo, cerrado al final */
+.tercio .num-ghost{position:absolute;top:clamp(1.2rem,3vw,2.2rem);right:clamp(1.2rem,3vw,2.2rem);z-index:2;display:flex;align-items:center;gap:.7em;font-family:var(--display);font-style:italic;font-weight:600;font-size:1rem;color:var(--dorado);opacity:1;line-height:1;}
+.tercio .num-ghost::after{content:"";width:2.3rem;height:2.3rem;border-radius:50%;background:conic-gradient(var(--dorado) calc(var(--n) * 120deg), rgba(230,189,58,.2) 0);-webkit-mask:radial-gradient(circle, transparent 59%, #000 61%);mask:radial-gradient(circle, transparent 59%, #000 61%);}
+.tercio h3{font-size:clamp(2.6rem,6vw,4.6rem);font-style:italic;font-weight:600;color:var(--dorado);letter-spacing:-.015em;}
+.tercio p{margin-top:.9em;font-size:clamp(1rem,1.25vw,1.1rem);font-weight:350;line-height:1.75;max-width:46ch;color:rgba(245,239,224,.9);}
+@media (min-width:900px){
+  .tercio{grid-template-columns:1.15fr 1fr;height:min(70vh,600px);min-height:440px;}
+  .tercio-media{aspect-ratio:auto;height:100%;}
+  .tercio:nth-child(even){grid-template-columns:1fr 1.15fr;}
+  .tercio:nth-child(even) .tercio-media{order:2;}
+  .tercio:nth-child(even) .num-ghost{right:auto;left:clamp(1.2rem,3vw,2.2rem);flex-direction:row-reverse;}
+}
+@media (min-width:900px) and (min-height:700px){
+  .tercio{position:sticky;top:calc(var(--header-h) + 1rem + (var(--n) - 1) * 1.1rem);box-shadow:0 -22px 50px rgba(3,10,8,.55);}
+}
+
+/* ---------- La filosofía y los objetivos ---------- */
+.claves-section{padding:var(--sec) 0;background:var(--fondo);}
+.claves-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(2.4rem,6vw,5rem);align-items:start;}
+@media (max-width:900px){.claves-grid{grid-template-columns:1fr;}}
+.claves-intro p{font-size:clamp(1.02rem,1.35vw,1.14rem);font-weight:350;line-height:1.8;max-width:50ch;text-align:justify;text-wrap:pretty;}
+.claves-intro p + p{margin-top:1em;}
+.claves-objetivos{background:var(--verde);color:var(--crema);padding:clamp(1.8rem,4vw,3.2rem);border-top:3px solid var(--dorado);box-shadow:0 30px 60px rgba(22,36,30,.22);}
+@media (min-width:901px){.claves-objetivos{position:sticky;top:calc(var(--header-h) + 2.2rem);}}
+.claves-objetivos .label{color:var(--dorado);font-size:clamp(1.5rem,2.8vw,2rem);margin-bottom:.7em;}
+.claves-list{list-style:none;}
+.claves-list li{display:flex;gap:1rem;align-items:baseline;padding:.95rem 0;border-top:1px solid rgba(230,189,58,.2);}
+.claves-list li::before{content:"";flex:0 0 .62rem;height:.62rem;border:1.5px solid var(--dorado);border-radius:50%;transform:translateY(-.05em);}
+.claves-list .cl-text{font-size:clamp(1rem,1.3vw,1.1rem);line-height:1.55;}
+
+/* ---------- Ruptura: Belmonte ---------- */
+.ruptura{min-height:25vh;display:flex;align-items:center;overflow:hidden;background:var(--sombra);}
+.ruptura-photo{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover;object-position:78% 42%;opacity:.36;filter:grayscale(1) contrast(1.1);-webkit-mask-image:linear-gradient(90deg, transparent 4%, #000 52%);mask-image:linear-gradient(90deg, transparent 4%, #000 52%);}
+.ruptura::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg, rgba(10,28,22,.86) 22%, rgba(10,28,22,.1) 74%);}
+.ruptura-inner{position:relative;z-index:2;width:100%;max-width:var(--max);margin:0 auto;padding:1.6rem var(--gutter);}
+.ruptura-inner p{font-family:var(--display);font-style:italic;font-weight:600;font-size:clamp(1.25rem,2.6vw,1.9rem);line-height:1.35;max-width:24ch;color:var(--crema);text-shadow:0 3px 24px rgba(3,10,8,.6);text-wrap:balance;}
+.ruptura-inner p.ruptura-credit{margin-top:.9em;max-width:none;font-family:var(--texto);font-style:normal;font-weight:400;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--dorado);text-shadow:none;}
+
+/* ---------- Frases ---------- */
+.frases-section{padding:1.9rem 0;overflow:hidden;background:var(--vino);border-top:1px solid rgba(230,189,58,.35);border-bottom:1px solid rgba(230,189,58,.35);}
+.mk-marquee{overflow:hidden;}
+.mk-marquee-track{display:flex;width:max-content;white-space:nowrap;animation:marquee 64s linear infinite;}
+.mk-marquee:hover .mk-marquee-track{animation-play-state:paused;}
+.frases-section .mk-marquee-track > span{font-family:var(--display);font-style:italic;font-size:clamp(1.1rem,2.4vw,1.55rem);color:var(--crema);}
+.frases-section .mk-marquee-track .sep{color:var(--dorado);margin:0 1.6rem;font-style:normal;}
+.frases-section .mk-marquee-track small{display:inline-block;margin-left:.6em;font-family:var(--texto);font-size:.56em;font-style:normal;letter-spacing:.08em;text-transform:uppercase;opacity:.75;}
+@keyframes marquee{to{transform:translateX(-50%);}}
+
+/* ---------- Mujeres de luces ---------- */
+.mujeres-section{padding:0;background:var(--fondo);}
+.mujeres-grid{display:grid;grid-template-columns:1.08fr 1fr;min-height:min(88vh,820px);}
+@media (max-width:840px){.mujeres-grid{grid-template-columns:1fr;min-height:0;}}
+.mujeres-figure{position:relative;overflow:hidden;min-height:56vh;}
+.mujeres-figure img{width:100%;height:100%;object-fit:cover;object-position:center 32%;position:absolute;inset:0;}
+.mujeres-credit{position:absolute;left:1rem;bottom:.8rem;z-index:1;font-size:.68rem;letter-spacing:.04em;color:var(--crema);opacity:.8;text-shadow:0 1px 6px rgba(0,0,0,.6);}
+.mujeres-copy{display:flex;flex-direction:column;justify-content:center;padding:clamp(3.4rem,9vh,6rem) clamp(1.2rem,5vw,4.4rem);}
+.mujeres-copy .marginalia{margin-bottom:1.6rem;}
+.mujeres-copy p{font-size:clamp(1rem,1.3vw,1.12rem);font-weight:350;line-height:1.8;max-width:48ch;}
+.mujeres-copy p + p{margin-top:1em;}
+.mujeres-quote{margin-bottom:1.6rem;border-left:2px solid var(--vino);padding-left:1.3rem;}
+.mujeres-quote p{font-family:var(--display);font-style:italic;font-weight:600;font-size:clamp(1.25rem,2.2vw,1.6rem);color:var(--vino);line-height:1.38;max-width:26ch;}
+
+/* ---------- Escuelas de tauromaquia: una columna, el texto y debajo los formatos ---------- */
+.escuelas-section{padding:var(--sec) 0;background:var(--verde);color:var(--crema);}
+.escuelas-wrap{max-width:900px;}
+.escuelas-intro{font-size:clamp(1rem,1.35vw,1.14rem);font-weight:350;line-height:1.8;max-width:66ch;text-align:justify;text-wrap:pretty;color:rgba(245,239,224,.9);}
+.escuelas-intro p + p{margin-top:1em;}
+.escuelas-intro p.escuelas-tagline{font-family:var(--display);font-style:italic;font-weight:600;color:var(--dorado);font-size:clamp(1.1rem,1.9vw,1.35rem);line-height:1.4;text-align:left;}
+.programa-insert{margin-top:2rem;max-width:66ch;background:var(--crema);color:var(--tinta);padding:clamp(1.1rem,2.4vw,1.6rem) clamp(1.4rem,3vw,2.2rem);outline:1px solid var(--dorado-mate);outline-offset:-8px;box-shadow:0 26px 54px rgba(3,10,8,.35);}
+.programa-list{list-style:none;}
+.programa-list li{padding:.8rem .2rem;border-top:1px solid rgba(22,36,30,.16);font-family:var(--display);font-size:clamp(1rem,1.4vw,1.1rem);font-weight:500;line-height:1.35;}
+.programa-list li:first-child{border-top:none;}
+.escuelas-cta{margin-top:2.2rem;}
+
+/* ---------- Servicios ---------- */
+.servicios-section{padding:var(--sec) 0;background:var(--fondo);}
+.servicios-intro{max-width:58ch;font-size:clamp(1.02rem,1.4vw,1.16rem);font-weight:350;line-height:1.75;}
+.servicios-discrecion{max-width:58ch;font-family:var(--display);font-style:italic;font-size:1.05rem;color:var(--vino);margin-top:.9em;}
+@media (min-width:960px){
+  .servicios-section > .wrap{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);column-gap:clamp(2rem,5vw,5rem);}
+  .servicios-section .marginalia{grid-column:1;grid-row:1 / span 2;margin-bottom:0;}
+  .servicios-intro,.servicios-discrecion{grid-column:2;}
+  .servicios-grid{grid-column:1 / -1;}
+}
+.servicios-grid{margin-top:clamp(2.4rem,6vh,3.8rem);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.4rem;align-items:start;}
+@media (max-width:860px){.servicios-grid{grid-template-columns:1fr;}}
+.svc-tile{background:#fffdf6;border:1px solid rgba(22,36,30,.12);transition:box-shadow .3s,border-color .3s;}
+.svc-tile:hover,.svc-tile[open]{border-color:var(--dorado-mate);box-shadow:0 26px 54px rgba(22,36,30,.16);}
+.svc-tile summary{list-style:none;cursor:pointer;display:block;}
+.svc-tile summary::-webkit-details-marker{display:none;}
+.svc-photo{position:relative;aspect-ratio:4/3;overflow:hidden;background-size:cover;background-position:center;}
+.svc-photo::before{content:"";position:absolute;inset:0;background:linear-gradient(0deg, rgba(10,28,22,.9) 12%, rgba(10,28,22,.05) 62%);transition:opacity .3s;}
+.svc-tile:hover .svc-photo::before{opacity:.82;}
+.svc-photo-label{position:absolute;left:1.2rem;right:1.2rem;bottom:1.05rem;z-index:1;display:flex;align-items:center;justify-content:space-between;gap:.6em;font-family:var(--display);font-weight:700;font-size:clamp(1.3rem,2vw,1.6rem);color:var(--crema);line-height:1.15;}
+.svc-photo-label::after{content:"";flex:0 0 2.1rem;height:2.1rem;border:1px solid var(--dorado);border-radius:50%;background:linear-gradient(var(--dorado),var(--dorado)) center/42% 1.5px no-repeat,linear-gradient(var(--dorado),var(--dorado)) center/1.5px 42% no-repeat;transition:transform .35s ease;}
+.svc-tile[open] .svc-photo-label::after{transform:rotate(45deg);}
+.svc-info{padding:1.4rem 1.4rem 1.6rem;}
+.svc-info .ledger-desc{font-size:.98rem;font-weight:350;line-height:1.65;}
+.svc-plan-list{list-style:none;margin-top:1.1em;display:grid;}
+.svc-plan-list li{padding:.6em 0;border-top:1px solid rgba(22,36,30,.12);font-size:.93rem;line-height:1.55;}
+.svc-plan-list li b{display:block;font-family:var(--display);font-weight:700;font-size:1.02rem;margin-bottom:.15em;}
+.svc-info .cta-big.svc-cta{margin-top:1.3rem;width:100%;font-size:.84rem;padding:.9em 1em;white-space:normal;text-align:center;border-color:var(--vino);color:var(--vino);}
+.svc-info .cta-big.svc-cta:hover{background:var(--vino);color:var(--crema);}
+
+/* ---------- Cierre (composición aprobada por la clienta) ---------- */
+.cierre-section{padding:clamp(6rem,16vh,9.5rem) 0;text-align:center;background:radial-gradient(ellipse 80% 60% at 50% 0%, var(--verde) 0%, var(--verde2) 70%);color:var(--crema);overflow:hidden;}
+.cierre-lockup{max-width:980px;margin:0 auto;position:relative;z-index:1;}
+.cierre-lockup p{font-family:var(--display);font-weight:700;font-size:clamp(1.1rem,3.1vw,2.1rem);line-height:1.5;}
+.cierre-line{white-space:nowrap;}
+@media (max-width:640px){.cierre-line{white-space:normal;}}
+.cierre-lockup p.cierre-temple{margin:.35em 0 .45em;line-height:1;}
+.cierre-wordmark-big{display:block;margin:0 auto;height:auto;width:clamp(220px,52vw,560px);max-width:86%;filter:drop-shadow(0 4px 18px rgba(0,0,0,.35));}
+
+/* ---------- Contacto ---------- */
+footer{background:var(--sombra);padding:var(--sec) 0 2.4rem;color:var(--crema);}
+.ticket{max-width:1080px;margin:0 auto;}
+.ticket-top{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(2rem,6vw,5rem);align-items:start;padding-bottom:clamp(2.4rem,6vh,3.6rem);margin-bottom:2rem;border-bottom:1px solid var(--filete);}
+@media (max-width:820px){.ticket-top{grid-template-columns:1fr;}}
+.ticket-top h2{font-size:clamp(1.7rem,3.3vw,2.7rem);letter-spacing:-.012em;}
+@media (min-width:821px){.ticket-top h2{white-space:nowrap;}}
+.ticket-top p{margin-top:1.1em;font-size:clamp(1rem,1.35vw,1.12rem);font-weight:350;line-height:1.75;max-width:40ch;color:rgba(245,239,224,.86);}
+.ticket-cta{background:var(--verde);border:1px solid var(--filete);padding:clamp(1.4rem,3vw,2.2rem);}
+.contact-form{display:flex;flex-direction:column;gap:.9rem;}
+.contact-form input,.contact-form textarea{width:100%;background:rgba(10,28,22,.5);border:1px solid rgba(230,189,58,.3);color:var(--crema);padding:.85em 1em;font-family:var(--texto);font-size:1rem;line-height:1.5;resize:vertical;border-radius:0;transition:border-color .2s,background .2s;}
+.contact-form input::placeholder,.contact-form textarea::placeholder{color:var(--crema);opacity:.6;}
+.contact-form input:focus,.contact-form textarea:focus{outline:none;border-color:var(--dorado);background:rgba(10,28,22,.8);}
+.contact-form button{align-self:stretch;}
+.ticket-cta .contact-note{margin-top:0;font-size:.82rem;line-height:1.5;max-width:none;color:rgba(245,239,224,.7);}
+.ticket-cta .contact-sent{display:none;margin-top:0;font-size:.9rem;line-height:1.5;color:var(--dorado);max-width:none;}
+.ticket-cta .contact-sent.show{display:block;}
+.foot-contact{display:flex;flex-wrap:wrap;gap:1rem clamp(1.4rem,3vw,2.6rem);}
+.foot-contact a,.foot-contact .fc-item{display:flex;align-items:center;gap:.6em;font-size:.95rem;color:var(--crema);min-width:0;overflow-wrap:anywhere;}
+.foot-contact a{transition:color .2s;}
+.foot-contact a:hover{color:var(--dorado);}
+.foot-contact a[href^="mailto"]{flex-basis:100%;font-family:var(--display);font-size:clamp(1.15rem,2.4vw,1.6rem);}
+.foot-contact svg{width:18px;height:18px;color:var(--dorado);flex-shrink:0;}
+.contact-asunto{align-self:flex-start;font-size:.8rem;letter-spacing:.05em;color:var(--dorado);border:1px solid var(--filete);padding:.4em .85em;}
+.contact-asunto[hidden]{display:none;}
+.foot-bottom{margin-top:clamp(3rem,7vh,4.5rem);text-align:center;font-size:.8rem;opacity:.6;letter-spacing:.03em;}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto;}
+  .mk-marquee{overflow-x:auto;}
+  .mk-marquee-track{animation:none;}
+  *{transition-duration:.01ms !important;}
+}
+
+/* En pantallas estrechas el texto justificado necesita partir palabras largas para no abrir ríos */
+@media (max-width:640px){
+  .retrato-text p:not(.label),.tercios-intro p:not(:first-child),.claves-intro p,.escuelas-intro p:not(:first-child):not(.escuelas-tagline){-webkit-hyphens:auto;hyphens:auto;hyphenate-limit-chars:9 4 4;}
+}
+/* ---------- Carrito: icono del header ---------- */
+.cart-btn{position:relative;display:flex;align-items:center;justify-content:center;width:38px;height:38px;border:1px solid rgba(230,189,58,.4);border-radius:50%;background:transparent;cursor:pointer;flex-shrink:0;transition:border-color .2s;}
+.cart-btn:hover{border-color:var(--dorado);}
+.cart-btn svg{width:17px;height:17px;color:var(--dorado);}
+.cart-badge{position:absolute;top:-6px;right:-6px;min-width:18px;height:18px;padding:0 4px;border-radius:9px;background:var(--vino);color:var(--crema);font-size:.65rem;font-weight:700;display:flex;align-items:center;justify-content:center;line-height:1;border:1.5px solid var(--verde2);transition:transform .25s ease;}
+.cart-badge[data-empty="true"]{display:none;}
+.cart-badge.is-bump{transform:scale(1.5);}
+
+/* ---------- Tienda ---------- */
+.tienda-section{padding:clamp(5rem,13vh,8.5rem) 0;background:var(--verde);color:var(--crema);}
+.tienda-intro{font-size:clamp(1rem,2vw,1.12rem);font-weight:300;opacity:.8;max-width:56ch;line-height:1.7;}
+.tienda-grid{margin-top:clamp(2.5rem,6vh,3.5rem);display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1.6rem;}
+.tienda-card{background:var(--crema);color:var(--tinta);display:flex;flex-direction:column;box-shadow:0 14px 34px rgba(0,0,0,.25);}
+.tienda-photo{position:relative;aspect-ratio:1/1;overflow:hidden;background:#fff;cursor:pointer;}
+.tienda-photo img{width:100%;height:100%;object-fit:contain;padding:1rem;transition:transform .35s;}
+.tienda-photo:hover img{transform:scale(1.05);}
+.tienda-spin-hint{position:absolute;left:.7rem;bottom:.7rem;background:rgba(18,58,46,.85);color:var(--crema);font-size:.66rem;letter-spacing:.04em;padding:.3em .6em;border-radius:2px;opacity:0;transition:opacity .2s;pointer-events:none;}
+.tienda-photo:hover .tienda-spin-hint{opacity:1;}
+.tienda-body{padding:1.1rem 1.2rem 1.3rem;display:flex;flex-direction:column;flex:1;}
+.tienda-name{font-family:'Playfair Display',serif;font-weight:700;font-size:1.08rem;line-height:1.3;}
+.tienda-desc{margin-top:.4em;font-size:.82rem;font-weight:300;opacity:.68;line-height:1.5;}
+.tienda-price{margin-top:.7em;font-family:'Playfair Display',serif;font-weight:800;color:var(--vino);font-size:1.3rem;}
+.tienda-price small{font-family:'Jost',sans-serif;font-weight:400;font-size:.62em;opacity:.6;letter-spacing:.04em;}
+.tienda-foot{margin-top:auto;padding-top:1rem;display:flex;align-items:center;gap:.7rem;}
+.qty-stepper{display:flex;align-items:center;border:1px solid rgba(28,23,16,.18);flex-shrink:0;}
+.qty-stepper button{width:28px;height:32px;background:none;border:none;font-size:1.05rem;color:var(--vino);cursor:pointer;line-height:1;}
+.qty-stepper button:hover{background:rgba(111,22,49,.08);}
+.qty-stepper span{width:24px;text-align:center;font-size:.9rem;font-weight:600;}
+.btn-add{flex:1;background:var(--vino);color:var(--crema);border:none;padding:.6rem .8rem;font-family:'Jost',sans-serif;font-weight:600;font-size:.8rem;letter-spacing:.03em;text-transform:uppercase;cursor:pointer;transition:background .2s;}
+.btn-add:hover{background:#8a1d3e;}
+.btn-add.is-added{background:var(--dorado-mate);}
+
+/* ---------- Carrito: panel lateral ---------- */
+.cart-overlay{position:fixed;inset:0;background:rgba(6,14,11,.6);z-index:9998;opacity:0;pointer-events:none;transition:opacity .25s;}
+.cart-overlay.is-open{opacity:1;pointer-events:auto;}
+.cart-drawer{position:fixed;top:0;right:0;bottom:0;width:min(400px,92vw);background:var(--fondo);color:var(--tinta);z-index:9999;box-shadow:-10px 0 40px rgba(0,0,0,.35);transform:translateX(100%);transition:transform .3s ease;display:flex;flex-direction:column;}
+.cart-drawer.is-open{transform:translateX(0);}
+.cart-head{display:flex;align-items:center;justify-content:space-between;padding:1.3rem 1.4rem;border-bottom:1px solid rgba(28,23,16,.12);}
+.cart-head h3{font-family:'Playfair Display',serif;font-weight:800;font-size:1.2rem;}
+.cart-close{background:none;border:none;font-size:1.4rem;line-height:1;cursor:pointer;color:var(--tinta);opacity:.6;}
+.cart-close:hover{opacity:1;}
+.cart-items{flex:1;overflow-y:auto;padding:1rem 1.4rem;}
+.cart-empty{opacity:.55;font-size:.9rem;padding:2rem 0;text-align:center;}
+.cart-line{display:flex;gap:.8rem;padding:.9rem 0;border-bottom:1px solid rgba(28,23,16,.08);align-items:center;}
+.cart-line img{width:54px;height:54px;object-fit:contain;background:#fff;border:1px solid rgba(28,23,16,.08);flex-shrink:0;}
+.cart-line-info{flex:1;min-width:0;}
+.cart-line-name{font-size:.86rem;font-weight:600;}
+.cart-line-price{font-size:.78rem;opacity:.6;margin-top:.15em;}
+.cart-line-remove{background:none;border:none;font-size:.72rem;color:var(--vino);opacity:.7;cursor:pointer;text-decoration:underline;margin-top:.3em;padding:0;}
+.cart-foot{padding:1.2rem 1.4rem 1.5rem;border-top:1px solid rgba(28,23,16,.12);}
+.cart-subtotal{display:flex;justify-content:space-between;align-items:baseline;font-family:'Playfair Display',serif;font-weight:800;font-size:1.15rem;margin-bottom:.9rem;}
+.cart-checkout{display:block;width:100%;text-align:center;background:var(--vino);color:var(--crema);padding:.85rem;font-family:'Jost',sans-serif;font-weight:600;font-size:.86rem;letter-spacing:.03em;text-transform:uppercase;text-decoration:none;}
+.cart-checkout:hover{background:#8a1d3e;}
+.cart-checkout.is-disabled{opacity:.4;pointer-events:none;}
+.cart-note{margin-top:.7em;font-size:.72rem;opacity:.55;text-align:center;line-height:1.5;}
+
+/* ---------- Modal de producto: visor 360 ---------- */
+.pm-overlay{position:fixed;inset:0;background:rgba(6,14,11,.72);z-index:9998;opacity:0;pointer-events:none;transition:opacity .25s;}
+.pm-overlay.is-open{opacity:1;pointer-events:auto;}
+.product-modal{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%) scale(.96);width:min(880px,94vw);max-height:90vh;background:var(--fondo);color:var(--tinta);z-index:9999;box-shadow:0 30px 70px rgba(0,0,0,.4);display:flex;opacity:0;pointer-events:none;transition:opacity .25s, transform .25s;overflow:hidden;}
+.product-modal.is-open{opacity:1;pointer-events:auto;transform:translate(-50%,-50%) scale(1);}
+@media (max-width:720px){.product-modal{flex-direction:column;max-height:94vh;overflow-y:auto;}}
+.pm-close{position:absolute;top:.8rem;right:.9rem;z-index:2;background:rgba(255,255,255,.85);border:none;width:32px;height:32px;border-radius:50%;font-size:1.3rem;line-height:1;cursor:pointer;color:var(--tinta);}
+.pm-gallery{position:relative;flex:1 1 52%;background:#fff;display:flex;align-items:center;justify-content:center;min-height:320px;user-select:none;}
+.pm-gallery img{width:100%;height:100%;object-fit:contain;padding:2rem;pointer-events:none;}
+.pm-gallery.is-dragging{cursor:grabbing;}
+.pm-gallery:not(.is-dragging){cursor:grab;}
+.pm-arrow{position:absolute;top:50%;transform:translateY(-50%);width:36px;height:36px;border-radius:50%;border:none;background:rgba(28,23,16,.55);color:#fff;font-size:1.2rem;cursor:pointer;z-index:2;display:flex;align-items:center;justify-content:center;}
+.pm-arrow:hover{background:rgba(28,23,16,.8);}
+.pm-prev{left:.8rem;} .pm-next{right:.8rem;}
+.pm-dots{position:absolute;bottom:.9rem;left:0;right:0;display:flex;justify-content:center;gap:.4rem;z-index:2;}
+.pm-dots button{width:8px;height:8px;border-radius:50%;border:none;background:rgba(28,23,16,.25);padding:0;cursor:pointer;}
+.pm-dots button.is-active{background:var(--vino);}
+.pm-spin-badge{position:absolute;top:.8rem;left:.9rem;z-index:2;background:rgba(18,58,46,.85);color:var(--crema);font-size:.68rem;letter-spacing:.03em;padding:.35em .7em;border-radius:2px;}
+.pm-info{flex:1 1 48%;padding:1.8rem 2rem;display:flex;flex-direction:column;overflow-y:auto;}
+.pm-info h3{font-family:'Playfair Display',serif;font-weight:800;font-size:1.5rem;}
+.pm-info .pm-desc{margin-top:.5em;font-size:.92rem;font-weight:300;opacity:.72;line-height:1.6;}
+.pm-info .pm-price{margin-top:1rem;font-family:'Playfair Display',serif;font-weight:800;color:var(--vino);font-size:1.5rem;}
+.pm-sizes{margin-top:1.3rem;}
+.pm-sizes p{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;opacity:.6;margin-bottom:.6em;}
+.pm-size-rows{display:flex;flex-direction:column;gap:.5rem;}
+.pm-size-row{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.35rem 0;border-bottom:1px solid rgba(28,23,16,.1);}
+.pm-size-row .pm-size-label{font-family:'Jost',sans-serif;font-weight:600;font-size:.95rem;width:28px;}
+.pm-size-warn{margin-top:.6em;font-size:.75rem;color:var(--vino);opacity:0;height:0;overflow:hidden;transition:opacity .2s;}
+.pm-size-warn.show{opacity:1;height:auto;}
+.pm-add-sizes{display:none;width:100%;margin-top:1.1rem;justify-content:center;}
+.pm-add-sizes.show{display:inline-flex;}
+.pm-info .tienda-foot{margin-top:1.5rem;padding-top:0;}
+/* ---------- Tienda: ajustes de la versión 2 sobre los componentes existentes ---------- */
+.tienda-section{padding:var(--sec) 0;background:var(--verde2);color:var(--crema);}
+.tienda-intro{font-size:clamp(1.02rem,1.4vw,1.16rem);font-weight:350;line-height:1.75;opacity:.9;text-wrap:balance;}
+@media (min-width:760px){.tienda-intro{max-width:none;text-wrap:wrap;}.tienda-intro .linea{display:block;}}
+/* el carrito plegado no deja sombra en el borde derecho de la página */
+.cart-drawer:not(.is-open){box-shadow:none;}
+.tienda-grid{margin-top:clamp(2.4rem,6vh,3.8rem);grid-template-columns:repeat(4,minmax(0,1fr));gap:1.2rem;}
+@media (max-width:1000px){.tienda-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
+@media (max-width:480px){.tienda-grid{grid-template-columns:1fr;}}
+.tienda-card{box-shadow:none;border:1px solid var(--filete);transition:transform .3s,box-shadow .3s;}
+.tienda-card:hover{transform:translateY(-4px);box-shadow:0 26px 54px rgba(3,10,8,.5);}
+.tienda-name{font-size:1.15rem;}
+.tienda-desc{font-size:.9rem;font-weight:350;opacity:.82;line-height:1.55;}
+.tienda-price{font-size:1.4rem;}
+.btn-add{padding:.78rem .8rem;font-weight:500;letter-spacing:.07em;}
+.cart-btn{width:40px;height:40px;}
+.cart-head h3,.pm-info h3{line-height:1.2;}
+@media (max-width:480px){
+  .tienda-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem;}
+  .tienda-card .tienda-body{padding:.9rem .8rem 1rem;}
+  .tienda-card .tienda-photo img{padding:.6rem;}
+  .tienda-card .tienda-foot{flex-direction:column;align-items:stretch;gap:.5rem;}
+  .tienda-card .qty-stepper{justify-content:space-between;}
+  .tienda-card .tienda-name{font-size:1.02rem;}
+}
+
+/* ================= TEMPLE v4 · portada sobre papel: del lápiz a la plaza =================
+   Sin JavaScript o con animaciones reducidas queda una portada fija: titular, figura en color y franja. */
+.faena{position:relative;background:var(--fondo);}
+.faena-stage{position:relative;overflow:hidden;min-height:100svh;background:var(--fondo);color:var(--tinta);--suelo:74%;}
+.fa-h1{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}
+.fa-titular{position:absolute;left:var(--gutter);top:clamp(6.5rem,19vh,10rem);z-index:3;}
+.fa-titular p:first-child{font-family:var(--display);font-style:italic;font-weight:600;font-size:clamp(1.7rem,3.3vw,3.1rem);line-height:1.14;letter-spacing:-.01em;}
+.fa-titular p:first-child span{display:block;white-space:nowrap;}
+.fa-titular p:first-child span + span{color:var(--vino);}
+.fa-titular .fa-claim{margin-top:1.2rem;max-width:min(26em,34vw);font-family:var(--texto);font-size:clamp(.9rem,1.25vw,1.05rem);line-height:1.6;color:var(--tinta);}
+.fa-claim .nb{white-space:nowrap;}
+/* la figura: se apoya en la raya del suelo, como tras la barrera */
+.fa-figura{position:absolute;right:max(1vw, calc((100vw - 1500px) / 2));bottom:calc(100% - var(--suelo));width:min(60vw,940px,calc(100svh * .60 * 1.789));aspect-ratio:1272/711;z-index:2;}
+.fa-figura img{position:absolute;inset:0;width:100%;height:100%;display:block;}
+.fa-lapiz{display:none;}
+.fa-suelo{position:absolute;left:0;right:0;top:var(--suelo);height:1.5px;background:var(--tinta);z-index:3;}
+.fa-franja{position:absolute;left:0;right:0;top:var(--suelo);bottom:0;z-index:4;background:var(--vino);display:flex;align-items:center;overflow:hidden;}
+.fa-cinta-track{display:flex;flex-shrink:0;white-space:nowrap;animation:fa-corre 40s linear infinite;}
+.fa-cinta-track span{font-family:var(--texto);font-weight:500;font-size:clamp(1rem,2.6vw,2rem);letter-spacing:.12em;text-transform:uppercase;color:var(--crema);padding-right:1.1em;}
+.fa-cinta-track i{font-style:normal;color:var(--dorado);padding-right:1.1em;font-size:clamp(1rem,2.6vw,2rem);}
+@keyframes fa-corre{to{transform:translateX(-50%);}}
+.fa-aguja,.fa-plato,.fa-pasos,.fa-capote,.fa-fondo,.fa-final{display:none;}
+@media (max-width:760px){
+  .faena-stage{--suelo:78%;}
+  .fa-titular{right:var(--gutter);top:5.6rem;}
+  .fa-titular p:first-child{font-size:clamp(1.25rem,6.4vw,2.1rem);}
+  .fa-titular .fa-claim{max-width:none;}
+  .fa-figura{width:min(128vw,calc(100svh * .46 * 1.789));right:-20vw;}
+}
+
+/* ---- con desplazamiento: la escena se queda fija y avanza con la rueda ---- */
+.faena-on{height:620vh;}
+.faena-on .faena-stage{position:sticky;top:0;height:100vh;height:100svh;min-height:0;}
+.faena-on .fa-lapiz{display:block;}
+.faena-on .fa-color{clip-path:inset(0 0 0 100%);}
+.faena-on .fa-aguja{display:block;position:absolute;top:-4%;bottom:0;width:1.5px;background:var(--dorado-mate);opacity:0;z-index:1;}
+.faena-on .fa-franja{clip-path:inset(100% 0 0 0);}
+.faena-on .fa-plato{display:block;position:absolute;left:0;top:var(--suelo);z-index:5;width:clamp(96px,14vw,200px);aspect-ratio:1;margin-top:calc(clamp(96px,14vw,200px) * -1);color:var(--tinta);will-change:transform;}
+.fa-plato svg{display:block;width:100%;height:100%;background:var(--fondo);border-radius:50%;}
+.faena-on .fa-pasos{display:flex;position:absolute;left:var(--gutter);top:clamp(6.5rem,22vh,11rem);z-index:3;gap:clamp(1.4rem,3.4vw,3.2rem);font-family:var(--display);font-style:italic;font-weight:600;font-size:clamp(1.7rem,3.6vw,3.3rem);line-height:1.1;color:var(--tinta);}
+.fa-pasos span{opacity:0;border-bottom:2px solid var(--dorado-mate);padding-bottom:.12em;}
+@media (max-width:760px){.faena-on .fa-pasos{flex-direction:column;gap:.5rem;top:5.8rem;font-size:clamp(1.9rem,9vw,2.6rem);}.fa-pasos span{align-self:flex-start;}}
+/* el capote: la franja crece hasta cubrirlo todo y se pliega hasta ser el palo de la T */
+.faena-on .fa-fondo{display:block;position:absolute;inset:0;z-index:6;background:radial-gradient(120% 90% at 50% 40%, var(--verde) 0%, var(--verde2) 55%, var(--sombra) 100%);opacity:0;}
+.faena-on .fa-capote{display:block;position:absolute;inset:0;z-index:7;background:var(--vino);clip-path:inset(100% 0 0 0);will-change:clip-path;}
+.fa-oro{position:absolute;inset:0;background:var(--dorado);opacity:0;}
+.fa-lema{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.15em;padding:0 var(--gutter);text-align:center;font-family:var(--display);font-style:italic;font-weight:500;font-size:clamp(1.7rem,5.4vw,4.6rem);line-height:1.18;color:var(--crema);opacity:0;}
+.fa-lema span{display:block;white-space:nowrap;}
+.fa-lema span + span{color:var(--dorado);}
+@media (max-width:560px){.fa-lema{font-size:clamp(1.25rem,6.3vw,1.9rem);}}
+.faena-on .fa-final{display:flex;position:absolute;inset:0;z-index:8;flex-direction:column;align-items:center;justify-content:center;padding:72px var(--gutter) 0;pointer-events:none;}
+.fa-final-marca{width:min(74vw,760px);}
+.fa-final-wm{display:block;width:100%;height:auto;clip-path:inset(0 100% 0 0);opacity:0;}
+.fa-final-nca{display:flex;justify-content:space-between;padding:0 1.7% 0 1.4%;margin-top:clamp(.7rem,1.6vw,1.2rem);font-family:var(--texto);font-weight:500;font-size:clamp(.72rem,2.1vw,1.45rem);line-height:1;text-transform:uppercase;color:#fff;opacity:0;}
+.fa-final-nca .esp{width:.55em;}
+.fa-final-claim{margin-top:clamp(1.6rem,4.5vh,2.8rem);max-width:34em;text-align:center;font-family:var(--texto);font-weight:400;font-size:clamp(.92rem,1.5vw,1.1rem);line-height:1.6;color:var(--crema);opacity:0;}
+.fa-final-claim .nb{white-space:nowrap;}
+.faena-on .hero-scroll{display:flex;z-index:9;color:var(--tinta);}
+@media (max-width:640px){.faena-on .hero-scroll{display:none;}}
+/* ================= v3 · el mismo gesto en el resto de la página =================
+   Cada elemento marcado con data-sc recibe --t (0 a 1) según avanza por la pantalla.
+   Todo termina en la maqueta de siempre: nada cambia de sitio, solo se dibuja, se cose o se descubre. */
+.boceto,.aguja{display:none;}
+html.sc-on [data-sc="foto"] .boceto{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background-color:var(--fondo);clip-path:inset(0 calc(var(--t,0) * 100%) 0 0);z-index:1;pointer-events:none;filter:none;transform:none;}
+html.sc-on [data-sc="foto"] .boceto-bg{background-size:cover;background-position:center;background-repeat:no-repeat;}
+html.sc-on [data-sc="foto"] .aguja{display:block;position:absolute;top:0;bottom:0;left:calc((1 - var(--t,0)) * 100%);width:2px;margin-left:-1px;z-index:2;background:linear-gradient(180deg, transparent, var(--dorado) 18%, #fff3c4 50%, var(--dorado) 82%, transparent);box-shadow:0 0 14px rgba(230,189,58,.5);opacity:var(--vivo,0);pointer-events:none;}
+/* títulos: un hilo de oro que se tiende bajo cada uno */
+html.sc-on .marginalia[data-sc]{position:relative;}
+html.sc-on .marginalia[data-sc]::after{content:"";position:absolute;left:0;bottom:-.6rem;height:2px;width:calc(var(--t,0) * 4.6rem);background:linear-gradient(90deg, var(--dorado-mate), var(--dorado));}
+/* el plato se dibuja a pulso */
+html.sc-on [data-sc="dibujo"] :is(path,circle,ellipse,line):not(.pt){stroke-dasharray:1;stroke-dashoffset:calc(1 - var(--t,0));}
+html.sc-on [data-sc="dibujo"] .pt{opacity:clamp(0, calc(var(--t,0) * 4 - 3), 1);}
+/* objetivos: entran uno a uno */
+html.sc-on [data-sc="lista"] li{opacity:clamp(0, calc(var(--t,0) * 8 - var(--i,0)), 1);transform:translateX(calc((1 - clamp(0, var(--t,0) * 8 - var(--i,0), 1)) * 16px));}
+/* Belmonte: la foto se desliza despacio tras la cita */
+html.sc-on [data-sc="paralaje"] .ruptura-photo{object-position:78% calc(42% + (var(--t,.5) - .5) * 34%);}
+/* cierre: las líneas llegan una a una y TEMPLE nace del palo de la T, como en la portada */
+html.sc-on [data-sc="cierre"] .cierre-line{opacity:clamp(0, calc(var(--t,0) * 6 - var(--i,0)), 1);}
+html.sc-on [data-sc="cierre"] .cierre-wordmark-big{clip-path:inset(0 calc((1 - clamp(0, var(--t,0) * 6 - 3, 1)) * 91.9%) 0 calc((1 - clamp(0, var(--t,0) * 6 - 3, 1)) * 6.3%));opacity:clamp(0, calc(var(--t,0) * 60 - 29), 1);}
+/* en las fotos de servicios, el rótulo se sigue leyendo mientras dura el dibujo */
+html.sc-on [data-sc="foto"] .boceto-bg::after{content:"";position:absolute;left:0;right:0;bottom:0;height:42%;background:linear-gradient(0deg, rgba(10,28,22,.9), rgba(10,28,22,0));}
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis:not(.lenis-autoToggle).lenis-stopped {
+  overflow: clip;
+}
+
+.lenis [data-lenis-prevent],
+.lenis [data-lenis-prevent-wheel],
+.lenis [data-lenis-prevent-touch],
+.lenis [data-lenis-prevent-vertical],
+.lenis [data-lenis-prevent-horizontal] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+.lenis.lenis-autoToggle {
+  transition-property: overflow;
+  transition-duration: 1ms;
+  transition-behavior: allow-discrete;
+}
+
+/* ================= TEMPLE v5 · pulido: tacto, entrada y ritmo ================= */
+body{font-kerning:normal;text-rendering:optimizeLegibility;font-optical-sizing:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+/* grano de papel sobre toda la página: quita el aspecto plano de pantalla */
+body::after{content:"";position:fixed;inset:0;z-index:9990;pointer-events:none;opacity:.055;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .9 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");}
+/* telón de entrada: el logotipo, una línea que se llena y la página se descubre hacia arriba */
+.telon{display:none;}
+html.intro .telon{display:flex;position:fixed;inset:0;z-index:10000;flex-direction:column;align-items:center;justify-content:center;gap:1.5rem;background:radial-gradient(120% 90% at 50% 40%, var(--verde) 0%, var(--verde2) 55%, var(--sombra) 100%);clip-path:inset(0 0 0 0);transition:clip-path .95s cubic-bezier(.76,0,.24,1), visibility 0s .95s;animation:telon-seguro .01s 4.5s forwards;}
+.telon img{width:min(52vw,360px);height:auto;animation:telon-marca .8s cubic-bezier(.2,.7,.2,1) both;}
+.telon i{display:block;position:relative;width:min(52vw,360px);height:1px;background:rgba(230,189,58,.22);overflow:hidden;}
+.telon i::after{content:"";position:absolute;inset:0;background:var(--dorado);transform-origin:left;animation:telon-carga 1.15s cubic-bezier(.4,0,.2,1) both;}
+html.intro.listo .telon{clip-path:inset(0 0 100% 0);visibility:hidden;}
+@keyframes telon-marca{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:none;}}
+@keyframes telon-carga{from{transform:scaleX(0);}to{transform:scaleX(1);}}
+@keyframes telon-seguro{to{clip-path:inset(0 0 100% 0);visibility:hidden;}}
+/* al levantarse el telón: el titular sube línea a línea, la raya se traza y el boceto se dibuja */
+html.intro .fa-titular p:first-child span{clip-path:inset(0 0 105% 0);transform:translateY(.55em);transition:clip-path 1s cubic-bezier(.2,.7,.2,1), transform 1s cubic-bezier(.2,.7,.2,1);}
+html.intro .fa-titular p:first-child span + span{transition-delay:.12s;}
+html.intro .fa-titular .fa-claim{opacity:0;transition:opacity .9s ease .55s;}
+html.intro .fa-suelo{transform:scaleX(0);transform-origin:left;transition:transform 1.3s cubic-bezier(.6,0,.2,1) .1s;}
+html.intro .fa-lapiz{clip-path:inset(0 100% 0 0);transition:clip-path 1.7s cubic-bezier(.5,0,.2,1) .25s;}
+html.intro.listo .fa-titular p:first-child span{clip-path:inset(-10% 0 -12% 0);transform:none;transition-delay:.45s;}
+html.intro.listo .fa-titular p:first-child span + span{transition-delay:.57s;}
+html.intro.listo .fa-titular .fa-claim{opacity:1;transition-delay:1s;}
+html.intro.listo .fa-suelo{transform:none;transition-delay:.4s;}
+html.intro.listo .fa-lapiz{clip-path:inset(0 0 0 0);transition-delay:.55s;}
+/* portada: luz sobre el papel, sombra de contacto y tela en la franja */
+.faena-stage::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;background:radial-gradient(70% 60% at 68% 42%, rgba(255,255,255,.6), rgba(255,255,255,0) 70%), radial-gradient(130% 110% at 50% 45%, rgba(0,0,0,0) 58%, rgba(112,88,48,.13) 100%);}
+.fa-figura::after{content:"";position:absolute;left:6%;right:6%;bottom:-1px;height:22px;z-index:-1;background:radial-gradient(50% 100% at 50% 100%, rgba(22,36,30,.26), rgba(22,36,30,0) 70%);}
+.fa-figura{transform-origin:50% 100%;will-change:transform;}
+.fa-franja{background:linear-gradient(180deg, #7b1a37 0%, var(--vino) 34%, #581026 100%);box-shadow:inset 0 1px 0 rgba(230,189,58,.65);}
+.faena-on .fa-capote{background:linear-gradient(180deg, #7b1a37 0%, var(--vino) 40%, #581026 100%);}
+/* los actos de la portada, arriba a la derecha */
+.fa-actos{display:none;}
+@media (min-width:1000px){
+  .faena-on .fa-actos{display:flex;position:absolute;right:var(--gutter);top:clamp(5rem,12vh,6.4rem);z-index:9;gap:1.5rem;list-style:none;margin:0;padding:0;font-family:var(--texto);font-weight:500;font-size:.66rem;line-height:1;letter-spacing:.18em;text-transform:uppercase;color:var(--tinta);transition:color .4s ease;}
+  .fa-actos.oscuro{color:var(--crema);}
+  .fa-actos li{position:relative;padding-top:.75rem;opacity:.38;transition:opacity .35s ease;}
+  .fa-actos li::before{content:"";position:absolute;left:0;top:0;height:1.5px;width:100%;background:currentColor;opacity:.5;transform-origin:left;transform:scaleX(.35);transition:transform .45s cubic-bezier(.2,.7,.2,1), background-color .35s, opacity .35s;}
+  .fa-actos li.activo{opacity:1;}
+  .fa-actos li.activo::before{transform:none;background:var(--dorado-mate);opacity:1;}
+  .fa-actos.oscuro li.activo::before{background:var(--dorado);}
+}
+/* títulos de sección: suben desde su línea al llegar a ellos */
+html.sc-on .mtitle{overflow:hidden;padding:0 .1em .16em 0;margin-bottom:-.16em;}
+html.sc-on .mtitle .sube{display:inline-block;transform:translateY(112%);transition:transform 1s cubic-bezier(.2,.7,.2,1);}
+html.sc-on .mtitle.visto .sube{transform:none;}
+</style>
+</head>
+<body>
+<script>if(!matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("intro");</script>
+<div class="telon" aria-hidden="true"><img src="assets/temple-wordmark.png" alt="" width="1020" height="145"><i></i></div>
+<header class="site-header" id="siteHeader">
+  <a class="brand" href="#top">
+    <img src="assets/logo.webp" alt="TEMPLE" width="508" height="480">
+    <span class="brand-text"><img class="brand-wordmark" src="assets/temple-wordmark.png" alt="TEMPLE"><span>Nutrición con arte</span></span>
+  </a>
+  <nav class="site-nav" id="siteNav" aria-label="Secciones de la página">
+    <a href="#sobre">Sobre Mónica</a>
+    <a href="#metodo">El método</a>
+    <a href="#mujeres">Mujeres de luces</a>
+    <a href="#escuelas">Escuelas</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#tienda">Tienda</a>
+    <a class="nav-contacto" href="#contacto">Contacto</a>
+  </nav>
+  <div class="mid">
+    <a class="phone-link" href="#contacto">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+      Contacto
+    </a>
+    <button class="cart-btn" id="cartOpenBtn" aria-label="Ver carrito">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+      <span class="cart-badge" id="cartBadge" data-empty="true">0</span>
+    </button>
+    <button type="button" class="menu-btn" id="menuBtn" aria-controls="siteNav" aria-expanded="false" aria-label="Abrir menú"><span></span><span></span></button>
+  </div>
+</header>
+
+<section id="top" class="faena" aria-label="TEMPLE, nutrición con arte">
+  <div class="faena-stage">
+    <h1 class="fa-h1">TEMPLE. Nutrición con arte</h1>
+    <div class="fa-titular">
+      <p><span>El arte del buen comer</span><span>para el arte del buen torear.</span></p>
+      <p class="fa-claim">Mónica Rosa Terra. Coaching nutricional de <span class="nb">alto rendimiento</span> exclusivo para profesionales taurinos.</p>
+    </div>
+    <div class="fa-pasos" aria-hidden="true"><span>Parar</span><span>Templar</span><span>Mandar</span></div>
+    <div class="fa-figura">
+      <img class="fa-lapiz" src="assets/torero-lapiz.webp" alt="" width="1272" height="711">
+      <img class="fa-color" src="assets/torero-recorte.webp" alt="Un torero de espaldas, con el traje de luces y el capote abierto" width="1272" height="711">
+    </div>
+    <div class="fa-aguja"></div>
+    <div class="fa-suelo"></div>
+    <div class="fa-franja"><div class="fa-cinta-track"><span>20 años en nutrición deportiva de élite</span><i>·</i><span>Coaching nutricional de alto&nbsp;rendimiento</span><i>·</i><span>Exclusivo para profesionales taurinos</span><i>·</i><span>Parar</span><i>·</i><span>Templar</span><i>·</i><span>Mandar</span><i>·</i><span>Ciencia y tradición</span><i>·</i><span>20 años en nutrición deportiva de élite</span><i>·</i><span>Coaching nutricional de alto&nbsp;rendimiento</span><i>·</i><span>Exclusivo para profesionales taurinos</span><i>·</i><span>Parar</span><i>·</i><span>Templar</span><i>·</i><span>Mandar</span><i>·</i><span>Ciencia y tradición</span><i>·</i></div></div>
+    <div class="fa-plato" aria-hidden="true"><svg class="plato-svg" aria-hidden="true" viewBox="0 0 480 480" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><style>.plato-svg .pt{fill:currentColor;stroke:none}</style><circle cx="240" cy="240" r="233" stroke-width="1.6"/><circle cx="240" cy="240" r="222" stroke-width=".9" opacity=".75"/><circle cx="240" cy="240" r="184" stroke-width=".8" opacity=".4"/><g><circle cx="186" cy="204" r="84" stroke-width="1.9"/><circle cx="186" cy="204" r="77" stroke-width=".9" opacity=".7"/><path d="M128.7 142.6 L116 134 L131.9 130.8 L131.9 117.5 L144 123.3 L153.8 110.4 L155.9 125.6" stroke-width="1.5"/><ellipse cx="203" cy="204" rx="7.8" ry="5.8" transform="rotate(0 203 204)" stroke-width="1.05"/><circle cx="200.7" cy="205.9" r=".9" class="pt"/><ellipse cx="191.3" cy="220.2" rx="7.8" ry="5.8" transform="rotate(72 191.3 220.2)" stroke-width="1.05"/><circle cx="188.7" cy="218.6" r=".9" class="pt"/><ellipse cx="172.2" cy="214" rx="7.8" ry="5.8" transform="rotate(144 172.2 214)" stroke-width="1.05"/><circle cx="173" cy="211.1" r=".9" class="pt"/><ellipse cx="172.2" cy="194" rx="7.8" ry="5.8" transform="rotate(216 172.2 194)" stroke-width="1.05"/><circle cx="175.2" cy="193.8" r=".9" class="pt"/><ellipse cx="191.3" cy="187.8" rx="7.8" ry="5.8" transform="rotate(288 191.3 187.8)" stroke-width="1.05"/><circle cx="192.4" cy="190.6" r=".9" class="pt"/><ellipse cx="220.2" cy="215.1" rx="8.4" ry="6.2" transform="rotate(18 220.2 215.1)" stroke-width="1.05"/><circle cx="217.5" cy="216.2" r=".9" class="pt"/><ellipse cx="207.2" cy="233.1" rx="8.4" ry="6.2" transform="rotate(54 207.2 233.1)" stroke-width="1.05"/><circle cx="204.2" cy="232.4" r=".9" class="pt"/><ellipse cx="186" cy="240" rx="8.4" ry="6.2" transform="rotate(90 186 240)" stroke-width="1.05"/><circle cx="184.1" cy="237.7" r=".9" class="pt"/><ellipse cx="164.8" cy="233.1" rx="8.4" ry="6.2" transform="rotate(126 164.8 233.1)" stroke-width="1.05"/><circle cx="164.6" cy="230.1" r=".9" class="pt"/><ellipse cx="151.8" cy="215.1" rx="8.4" ry="6.2" transform="rotate(162 151.8 215.1)" stroke-width="1.05"/><circle cx="153.4" cy="212.6" r=".9" class="pt"/><ellipse cx="151.8" cy="192.9" rx="8.4" ry="6.2" transform="rotate(198 151.8 192.9)" stroke-width="1.05"/><circle cx="154.5" cy="191.8" r=".9" class="pt"/><ellipse cx="164.8" cy="174.9" rx="8.4" ry="6.2" transform="rotate(234 164.8 174.9)" stroke-width="1.05"/><circle cx="167.8" cy="175.6" r=".9" class="pt"/><ellipse cx="186" cy="168" rx="8.4" ry="6.2" transform="rotate(270 186 168)" stroke-width="1.05"/><circle cx="187.9" cy="170.3" r=".9" class="pt"/><ellipse cx="207.2" cy="174.9" rx="8.4" ry="6.2" transform="rotate(306 207.2 174.9)" stroke-width="1.05"/><circle cx="207.4" cy="177.9" r=".9" class="pt"/><ellipse cx="220.2" cy="192.9" rx="8.4" ry="6.2" transform="rotate(342 220.2 192.9)" stroke-width="1.05"/><circle cx="218.6" cy="195.4" r=".9" class="pt"/><ellipse cx="242.7" cy="210" rx="8.6" ry="6.4" transform="rotate(6 242.7 210)" stroke-width="1.05"/><circle cx="240.2" cy="211.6" r=".9" class="pt"/><ellipse cx="236.1" cy="231.2" rx="8.6" ry="6.4" transform="rotate(28.5 236.1 231.2)" stroke-width="1.05"/><circle cx="233.2" cy="231.8" r=".9" class="pt"/><ellipse cx="221.9" cy="248.3" rx="8.6" ry="6.4" transform="rotate(51 221.9 248.3)" stroke-width="1.05"/><circle cx="218.9" cy="247.7" r=".9" class="pt"/><ellipse cx="202.2" cy="258.7" rx="8.6" ry="6.4" transform="rotate(73.5 202.2 258.7)" stroke-width="1.05"/><circle cx="199.7" cy="257" r=".9" class="pt"/><ellipse cx="180" cy="260.7" rx="8.6" ry="6.4" transform="rotate(96 180 260.7)" stroke-width="1.05"/><circle cx="178.4" cy="258.2" r=".9" class="pt"/><ellipse cx="158.8" cy="254.1" rx="8.6" ry="6.4" transform="rotate(118.5 158.8 254.1)" stroke-width="1.05"/><circle cx="158.2" cy="251.2" r=".9" class="pt"/><ellipse cx="141.7" cy="239.9" rx="8.6" ry="6.4" transform="rotate(141 141.7 239.9)" stroke-width="1.05"/><circle cx="142.3" cy="236.9" r=".9" class="pt"/><ellipse cx="131.3" cy="220.2" rx="8.6" ry="6.4" transform="rotate(163.5 131.3 220.2)" stroke-width="1.05"/><circle cx="133" cy="217.7" r=".9" class="pt"/><ellipse cx="129.3" cy="198" rx="8.6" ry="6.4" transform="rotate(186 129.3 198)" stroke-width="1.05"/><circle cx="131.8" cy="196.4" r=".9" class="pt"/><ellipse cx="135.9" cy="176.8" rx="8.6" ry="6.4" transform="rotate(208.5 135.9 176.8)" stroke-width="1.05"/><circle cx="138.8" cy="176.2" r=".9" class="pt"/><ellipse cx="150.1" cy="159.7" rx="8.6" ry="6.4" transform="rotate(231 150.1 159.7)" stroke-width="1.05"/><circle cx="153.1" cy="160.3" r=".9" class="pt"/><ellipse cx="169.8" cy="149.3" rx="8.6" ry="6.4" transform="rotate(253.5 169.8 149.3)" stroke-width="1.05"/><circle cx="172.3" cy="151" r=".9" class="pt"/><ellipse cx="192" cy="147.3" rx="8.6" ry="6.4" transform="rotate(276 192 147.3)" stroke-width="1.05"/><circle cx="193.6" cy="149.8" r=".9" class="pt"/><ellipse cx="213.2" cy="153.9" rx="8.6" ry="6.4" transform="rotate(298.5 213.2 153.9)" stroke-width="1.05"/><circle cx="213.8" cy="156.8" r=".9" class="pt"/><ellipse cx="230.3" cy="168.1" rx="8.6" ry="6.4" transform="rotate(321 230.3 168.1)" stroke-width="1.05"/><circle cx="229.7" cy="171.1" r=".9" class="pt"/><ellipse cx="240.7" cy="187.8" rx="8.6" ry="6.4" transform="rotate(343.5 240.7 187.8)" stroke-width="1.05"/><circle cx="239" cy="190.3" r=".9" class="pt"/></g><g><circle cx="330" cy="304" r="62" stroke-width="1.7"/><circle cx="330" cy="304" r="55" stroke-width=".9" opacity=".7"/><path d="M332.7 296.5 L333.5 254.1 A50 50 0 0 1 359.4 263.5 Z" stroke-width="1.1"/><path d="M336.9 300 L364.7 268 A50 50 0 0 1 378.5 291.9 Z" stroke-width="1.1"/><path d="M337.9 305.4 L379.7 298.8 A50 50 0 0 1 374.9 325.9 Z" stroke-width="1.1"/><path d="M335.1 310.1 L371.5 332 A50 50 0 0 1 350.3 349.7 Z" stroke-width="1.1"/><path d="M330 312 L343.8 352.1 A50 50 0 0 1 316.2 352.1 Z" stroke-width="1.1"/><path d="M324.9 310.1 L309.7 349.7 A50 50 0 0 1 288.5 332 Z" stroke-width="1.1"/><path d="M322.1 305.4 L285.1 325.9 A50 50 0 0 1 280.3 298.8 Z" stroke-width="1.1"/><path d="M323.1 300 L281.5 291.9 A50 50 0 0 1 295.3 268 Z" stroke-width="1.1"/><path d="M327.3 296.5 L300.6 263.5 A50 50 0 0 1 326.5 254.1 Z" stroke-width="1.1"/></g><g><path d="M250 100 C322 84 388 128 408 214" stroke-width="1.7"/><path d="M260.7 98 Q282 88.7 291.5 63.9 Q267.8 76 260.7 98 Z" stroke-width="1.25"/><path d="M260.7 98 L285.4 70.7" stroke-width=".7" opacity=".55"/><path d="M292.2 97.5 Q300 119.3 324.1 130.6 Q313.7 106.1 292.2 97.5 Z" stroke-width="1.25"/><path d="M292.2 97.5 L317.7 124" stroke-width=".7" opacity=".55"/><path d="M323.6 105.2 Q346.6 107.6 367.2 90.8 Q340.7 89.5 323.6 105.2 Z" stroke-width="1.25"/><path d="M323.6 105.2 L358.5 93.7" stroke-width=".7" opacity=".55"/><path d="M351.8 121.2 Q347.3 143.9 362.1 166 Q365.8 139.7 351.8 121.2 Z" stroke-width="1.25"/><path d="M351.8 121.2 L360.1 157.1" stroke-width=".7" opacity=".55"/><path d="M376 144.9 Q394.8 158.5 421 154.2 Q398.6 139.9 376 144.9 Z" stroke-width="1.25"/><path d="M376 144.9 L412 152.4" stroke-width=".7" opacity=".55"/><path d="M395 176 Q381.1 191.3 384.7 214.7 Q399.5 196.2 395 176 Z" stroke-width="1.25"/><path d="M395 176 L386.8 206.9" stroke-width=".7" opacity=".55"/><path d="M408 214 Q405.5 234.3 421.1 251.8 Q422.5 228.4 408 214 Z" stroke-width="1.25"/><path d="M408 214 L418.5 244.2" stroke-width=".7" opacity=".55"/><path d="M306.2 99.8 L307.3 90.9" stroke-width=".95"/><ellipse cx="308.7" cy="79" rx="8" ry="11.5" transform="rotate(-173.1 308.7 79)" stroke-width="1.35"/><circle cx="304.6" cy="80.7" r="1" class="pt"/><path d="M363 130.6 L368.4 123.5" stroke-width=".95"/><ellipse cx="375.8" cy="114" rx="8" ry="11.5" transform="rotate(-142.4 375.8 114)" stroke-width="1.35"/><circle cx="371.3" cy="113.4" r="1" class="pt"/></g><g><g transform="translate(146 322) rotate(-30) scale(1.32)"><path d="M0 -17 C11.5 -9 11 10 0 16 C-11 10 -11.5 -9 0 -17 Z" stroke-width="1.05"/><path d="M0 -11 Q2.8 1 0 10.5" stroke-width=".6" opacity=".6"/><circle cx="-4.4" cy="-2" r=".6" class="pt"/><circle cx="4.6" cy="3" r=".6" class="pt"/><circle cx="-3.6" cy="6.5" r=".6" class="pt"/><circle cx="3.8" cy="-6" r=".6" class="pt"/></g><g transform="translate(190 360) rotate(22) scale(1.32)"><path d="M0 -17 C11.5 -9 11 10 0 16 C-11 10 -11.5 -9 0 -17 Z" stroke-width="1.05"/><path d="M0 -11 Q2.8 1 0 10.5" stroke-width=".6" opacity=".6"/><circle cx="-4.4" cy="-2" r=".6" class="pt"/><circle cx="4.6" cy="3" r=".6" class="pt"/><circle cx="-3.6" cy="6.5" r=".6" class="pt"/><circle cx="3.8" cy="-6" r=".6" class="pt"/></g><g transform="translate(140 372) rotate(72) scale(1.32)"><path d="M0 -17 C11.5 -9 11 10 0 16 C-11 10 -11.5 -9 0 -17 Z" stroke-width="1.05"/><path d="M0 -11 Q2.8 1 0 10.5" stroke-width=".6" opacity=".6"/><circle cx="-4.4" cy="-2" r=".6" class="pt"/><circle cx="4.6" cy="3" r=".6" class="pt"/><circle cx="-3.6" cy="6.5" r=".6" class="pt"/><circle cx="3.8" cy="-6" r=".6" class="pt"/></g></g></svg></div>
+    <div class="fa-fondo"></div>
+    <div class="fa-capote" aria-hidden="true">
+      <div class="fa-oro"></div>
+      <p class="fa-lema"><span>Forjamos vuestra mejor versión</span><span>sin cambiar la esencia.</span></p>
+    </div>
+    <div class="fa-final" aria-hidden="true">
+      <div class="fa-final-marca">
+        <img class="fa-final-wm" src="assets/temple-wordmark.png" alt="" width="1020" height="145">
+        <p class="fa-final-nca"><span>N</span><span>u</span><span>t</span><span>r</span><span>i</span><span>c</span><span>i</span><span>ó</span><span>n</span><span class="esp"></span><span>c</span><span>o</span><span>n</span><span class="esp"></span><span>a</span><span>r</span><span>t</span><span>e</span></p>
+      </div>
+      <p class="fa-final-claim">Mónica Rosa Terra. Coaching nutricional de <span class="nb">alto rendimiento</span> exclusivo para profesionales taurinos.</p>
+    </div>
+    <ol class="fa-actos" aria-hidden="true"><li class="activo">Boceto</li><li>Color</li><li>Barrera</li><li>Capote</li><li>TEMPLE</li></ol>
+    <div class="hero-scroll">Desliza</div>
+  </div>
+</section>
+
+<section class="apertura">
+  <div class="wrap apertura-grid">
+    <div class="apertura-texto">
+      <p class="mark">&ldquo;</p>
+      <blockquote>
+        <span class="frase">El atleta de luces debe rendir al extremo. Para ello necesita precisión, fuerza y templanza en cada milésima de segundo, expresando su arte con el compás y la elegancia que exige la tradición.</span>
+        <span class="frase">Está presente en cuerpo y alma para templar la embestida, convirtiendo el peligro en una obra de arte.</span>
+        <span class="fuerte">Su valor merece ciencia.</span>
+      </blockquote>
+    </div>
+    <figure class="plato" data-sc="dibujo"><svg class="plato-svg" viewBox="0 0 480 480" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Un plato dibujado en oro como si fuera el ruedo, con una granada abierta, una rodaja de naranja, una rama de olivo y almendras"><style>.plato-svg .pt{fill:currentColor;stroke:none}</style><circle cx="240" cy="240" r="233" stroke-width="1.6"/><circle cx="240" cy="240" r="222" stroke-width=".9" opacity=".75"/><circle cx="240" cy="240" r="184" stroke-width=".8" opacity=".4"/><g><circle cx="186" cy="204" r="84" stroke-width="1.9"/><circle cx="186" cy="204" r="77" stroke-width=".9" opacity=".7"/><path d="M128.7 142.6 L116 134 L131.9 130.8 L131.9 117.5 L144 123.3 L153.8 110.4 L155.9 125.6" stroke-width="1.5"/><ellipse cx="203" cy="204" rx="7.8" ry="5.8" transform="rotate(0 203 204)" stroke-width="1.05"/><circle cx="200.7" cy="205.9" r=".9" class="pt"/><ellipse cx="191.3" cy="220.2" rx="7.8" ry="5.8" transform="rotate(72 191.3 220.2)" stroke-width="1.05"/><circle cx="188.7" cy="218.6" r=".9" class="pt"/><ellipse cx="172.2" cy="214" rx="7.8" ry="5.8" transform="rotate(144 172.2 214)" stroke-width="1.05"/><circle cx="173" cy="211.1" r=".9" class="pt"/><ellipse cx="172.2" cy="194" rx="7.8" ry="5.8" transform="rotate(216 172.2 194)" stroke-width="1.05"/><circle cx="175.2" cy="193.8" r=".9" class="pt"/><ellipse cx="191.3" cy="187.8" rx="7.8" ry="5.8" transform="rotate(288 191.3 187.8)" stroke-width="1.05"/><circle cx="192.4" cy="190.6" r=".9" class="pt"/><ellipse cx="220.2" cy="215.1" rx="8.4" ry="6.2" transform="rotate(18 220.2 215.1)" stroke-width="1.05"/><circle cx="217.5" cy="216.2" r=".9" class="pt"/><ellipse cx="207.2" cy="233.1" rx="8.4" ry="6.2" transform="rotate(54 207.2 233.1)" stroke-width="1.05"/><circle cx="204.2" cy="232.4" r=".9" class="pt"/><ellipse cx="186" cy="240" rx="8.4" ry="6.2" transform="rotate(90 186 240)" stroke-width="1.05"/><circle cx="184.1" cy="237.7" r=".9" class="pt"/><ellipse cx="164.8" cy="233.1" rx="8.4" ry="6.2" transform="rotate(126 164.8 233.1)" stroke-width="1.05"/><circle cx="164.6" cy="230.1" r=".9" class="pt"/><ellipse cx="151.8" cy="215.1" rx="8.4" ry="6.2" transform="rotate(162 151.8 215.1)" stroke-width="1.05"/><circle cx="153.4" cy="212.6" r=".9" class="pt"/><ellipse cx="151.8" cy="192.9" rx="8.4" ry="6.2" transform="rotate(198 151.8 192.9)" stroke-width="1.05"/><circle cx="154.5" cy="191.8" r=".9" class="pt"/><ellipse cx="164.8" cy="174.9" rx="8.4" ry="6.2" transform="rotate(234 164.8 174.9)" stroke-width="1.05"/><circle cx="167.8" cy="175.6" r=".9" class="pt"/><ellipse cx="186" cy="168" rx="8.4" ry="6.2" transform="rotate(270 186 168)" stroke-width="1.05"/><circle cx="187.9" cy="170.3" r=".9" class="pt"/><ellipse cx="207.2" cy="174.9" rx="8.4" ry="6.2" transform="rotate(306 207.2 174.9)" stroke-width="1.05"/><circle cx="207.4" cy="177.9" r=".9" class="pt"/><ellipse cx="220.2" cy="192.9" rx="8.4" ry="6.2" transform="rotate(342 220.2 192.9)" stroke-width="1.05"/><circle cx="218.6" cy="195.4" r=".9" class="pt"/><ellipse cx="242.7" cy="210" rx="8.6" ry="6.4" transform="rotate(6 242.7 210)" stroke-width="1.05"/><circle cx="240.2" cy="211.6" r=".9" class="pt"/><ellipse cx="236.1" cy="231.2" rx="8.6" ry="6.4" transform="rotate(28.5 236.1 231.2)" stroke-width="1.05"/><circle cx="233.2" cy="231.8" r=".9" class="pt"/><ellipse cx="221.9" cy="248.3" rx="8.6" ry="6.4" transform="rotate(51 221.9 248.3)" stroke-width="1.05"/><circle cx="218.9" cy="247.7" r=".9" class="pt"/><ellipse cx="202.2" cy="258.7" rx="8.6" ry="6.4" transform="rotate(73.5 202.2 258.7)" stroke-width="1.05"/><circle cx="199.7" cy="257" r=".9" class="pt"/><ellipse cx="180" cy="260.7" rx="8.6" ry="6.4" transform="rotate(96 180 260.7)" stroke-width="1.05"/><circle cx="178.4" cy="258.2" r=".9" class="pt"/><ellipse cx="158.8" cy="254.1" rx="8.6" ry="6.4" transform="rotate(118.5 158.8 254.1)" stroke-width="1.05"/><circle cx="158.2" cy="251.2" r=".9" class="pt"/><ellipse cx="141.7" cy="239.9" rx="8.6" ry="6.4" transform="rotate(141 141.7 239.9)" stroke-width="1.05"/><circle cx="142.3" cy="236.9" r=".9" class="pt"/><ellipse cx="131.3" cy="220.2" rx="8.6" ry="6.4" transform="rotate(163.5 131.3 220.2)" stroke-width="1.05"/><circle cx="133" cy="217.7" r=".9" class="pt"/><ellipse cx="129.3" cy="198" rx="8.6" ry="6.4" transform="rotate(186 129.3 198)" stroke-width="1.05"/><circle cx="131.8" cy="196.4" r=".9" class="pt"/><ellipse cx="135.9" cy="176.8" rx="8.6" ry="6.4" transform="rotate(208.5 135.9 176.8)" stroke-width="1.05"/><circle cx="138.8" cy="176.2" r=".9" class="pt"/><ellipse cx="150.1" cy="159.7" rx="8.6" ry="6.4" transform="rotate(231 150.1 159.7)" stroke-width="1.05"/><circle cx="153.1" cy="160.3" r=".9" class="pt"/><ellipse cx="169.8" cy="149.3" rx="8.6" ry="6.4" transform="rotate(253.5 169.8 149.3)" stroke-width="1.05"/><circle cx="172.3" cy="151" r=".9" class="pt"/><ellipse cx="192" cy="147.3" rx="8.6" ry="6.4" transform="rotate(276 192 147.3)" stroke-width="1.05"/><circle cx="193.6" cy="149.8" r=".9" class="pt"/><ellipse cx="213.2" cy="153.9" rx="8.6" ry="6.4" transform="rotate(298.5 213.2 153.9)" stroke-width="1.05"/><circle cx="213.8" cy="156.8" r=".9" class="pt"/><ellipse cx="230.3" cy="168.1" rx="8.6" ry="6.4" transform="rotate(321 230.3 168.1)" stroke-width="1.05"/><circle cx="229.7" cy="171.1" r=".9" class="pt"/><ellipse cx="240.7" cy="187.8" rx="8.6" ry="6.4" transform="rotate(343.5 240.7 187.8)" stroke-width="1.05"/><circle cx="239" cy="190.3" r=".9" class="pt"/></g><g><circle cx="330" cy="304" r="62" stroke-width="1.7"/><circle cx="330" cy="304" r="55" stroke-width=".9" opacity=".7"/><path d="M332.7 296.5 L333.5 254.1 A50 50 0 0 1 359.4 263.5 Z" stroke-width="1.1"/><path d="M336.9 300 L364.7 268 A50 50 0 0 1 378.5 291.9 Z" stroke-width="1.1"/><path d="M337.9 305.4 L379.7 298.8 A50 50 0 0 1 374.9 325.9 Z" stroke-width="1.1"/><path d="M335.1 310.1 L371.5 332 A50 50 0 0 1 350.3 349.7 Z" stroke-width="1.1"/><path d="M330 312 L343.8 352.1 A50 50 0 0 1 316.2 352.1 Z" stroke-width="1.1"/><path d="M324.9 310.1 L309.7 349.7 A50 50 0 0 1 288.5 332 Z" stroke-width="1.1"/><path d="M322.1 305.4 L285.1 325.9 A50 50 0 0 1 280.3 298.8 Z" stroke-width="1.1"/><path d="M323.1 300 L281.5 291.9 A50 50 0 0 1 295.3 268 Z" stroke-width="1.1"/><path d="M327.3 296.5 L300.6 263.5 A50 50 0 0 1 326.5 254.1 Z" stroke-width="1.1"/></g><g><path d="M250 100 C322 84 388 128 408 214" stroke-width="1.7"/><path d="M260.7 98 Q282 88.7 291.5 63.9 Q267.8 76 260.7 98 Z" stroke-width="1.25"/><path d="M260.7 98 L285.4 70.7" stroke-width=".7" opacity=".55"/><path d="M292.2 97.5 Q300 119.3 324.1 130.6 Q313.7 106.1 292.2 97.5 Z" stroke-width="1.25"/><path d="M292.2 97.5 L317.7 124" stroke-width=".7" opacity=".55"/><path d="M323.6 105.2 Q346.6 107.6 367.2 90.8 Q340.7 89.5 323.6 105.2 Z" stroke-width="1.25"/><path d="M323.6 105.2 L358.5 93.7" stroke-width=".7" opacity=".55"/><path d="M351.8 121.2 Q347.3 143.9 362.1 166 Q365.8 139.7 351.8 121.2 Z" stroke-width="1.25"/><path d="M351.8 121.2 L360.1 157.1" stroke-width=".7" opacity=".55"/><path d="M376 144.9 Q394.8 158.5 421 154.2 Q398.6 139.9 376 144.9 Z" stroke-width="1.25"/><path d="M376 144.9 L412 152.4" stroke-width=".7" opacity=".55"/><path d="M395 176 Q381.1 191.3 384.7 214.7 Q399.5 196.2 395 176 Z" stroke-width="1.25"/><path d="M395 176 L386.8 206.9" stroke-width=".7" opacity=".55"/><path d="M408 214 Q405.5 234.3 421.1 251.8 Q422.5 228.4 408 214 Z" stroke-width="1.25"/><path d="M408 214 L418.5 244.2" stroke-width=".7" opacity=".55"/><path d="M306.2 99.8 L307.3 90.9" stroke-width=".95"/><ellipse cx="308.7" cy="79" rx="8" ry="11.5" transform="rotate(-173.1 308.7 79)" stroke-width="1.35"/><circle cx="304.6" cy="80.7" r="1" class="pt"/><path d="M363 130.6 L368.4 123.5" stroke-width=".95"/><ellipse cx="375.8" cy="114" rx="8" ry="11.5" transform="rotate(-142.4 375.8 114)" stroke-width="1.35"/><circle cx="371.3" cy="113.4" r="1" class="pt"/></g><g><g transform="translate(146 322) rotate(-30) scale(1.32)"><path d="M0 -17 C11.5 -9 11 10 0 16 C-11 10 -11.5 -9 0 -17 Z" stroke-width="1.05"/><path d="M0 -11 Q2.8 1 0 10.5" stroke-width=".6" opacity=".6"/><circle cx="-4.4" cy="-2" r=".6" class="pt"/><circle cx="4.6" cy="3" r=".6" class="pt"/><circle cx="-3.6" cy="6.5" r=".6" class="pt"/><circle cx="3.8" cy="-6" r=".6" class="pt"/></g><g transform="translate(190 360) rotate(22) scale(1.32)"><path d="M0 -17 C11.5 -9 11 10 0 16 C-11 10 -11.5 -9 0 -17 Z" stroke-width="1.05"/><path d="M0 -11 Q2.8 1 0 10.5" stroke-width=".6" opacity=".6"/><circle cx="-4.4" cy="-2" r=".6" class="pt"/><circle cx="4.6" cy="3" r=".6" class="pt"/><circle cx="-3.6" cy="6.5" r=".6" class="pt"/><circle cx="3.8" cy="-6" r=".6" class="pt"/></g><g transform="translate(140 372) rotate(72) scale(1.32)"><path d="M0 -17 C11.5 -9 11 10 0 16 C-11 10 -11.5 -9 0 -17 Z" stroke-width="1.05"/><path d="M0 -11 Q2.8 1 0 10.5" stroke-width=".6" opacity=".6"/><circle cx="-4.4" cy="-2" r=".6" class="pt"/><circle cx="4.6" cy="3" r=".6" class="pt"/><circle cx="-3.6" cy="6.5" r=".6" class="pt"/><circle cx="3.8" cy="-6" r=".6" class="pt"/></g></g></svg></figure>
+  </div>
+</section>
+
+<section id="sobre" class="retrato-section">
+  <div class="wrap retrato-grid">
+    <div>
+      <div class="retrato-figure">
+        <img src="assets/monica-foto.jpg" alt="Mónica Rosa Terra" width="560" height="560">
+        <div class="retrato-tag">
+          <p class="rt-name">Mónica Rosa Terra</p>
+          <p class="rt-role">Coach Nutricional de Alto&nbsp;Rendimiento</p>
+        </div>
+      </div>
+      <div class="retrato-stats">
+        <div><span class="rs-num">20</span><p class="rs-label">Años en nutrición deportiva</p></div>
+        <div><span class="rs-num">3</span><p class="rs-label">Países: España, Uruguay, Brasil</p></div>
+      </div>
+    </div>
+    <div class="retrato-text">
+      <p class="label">Del podio al albero</p>
+      <div class="marginalia" data-sc="titulo"><h2 class="mtitle"><span class="sube">Sobre <em>Mónica</em></span></h2></div>
+      <p class="lead">Soy Mónica Rosa. Durante 20 años he aplicado la ciencia de la nutrición para maximizar el rendimiento de atletas de élite, diseñando estrategias para quienes buscaban una medalla, un récord, ganarle milésimas a su rival o ganar campeonatos internacionales. Sé cómo el combustible adecuado ayuda a optimizar el rendimiento tanto en preparación de pretemporada como en competiciones bajo alta presión.</p>
+      <p>Mi profesión me ha llevado por varios países y disciplinas deportivas, hasta que el destino me trajo a España, donde conocí el mundo de los toros. En las plazas encontré una exigencia mucho mayor a la de cualquier deportista: no se compite por una copa, sino que se entrega valor y estética frente a un animal de media tonelada, donde el mínimo error físico o mental no cuesta un campeonato, sino la integridad del atleta.</p>
+      <p>TEMPLE nace de la fusión de mi experiencia en nutrición deportiva de alto&nbsp;rendimiento aplicada a las necesidades reales del atleta de luces, respetando la tradición. Va más allá de una dieta: vemos al profesional en su totalidad.</p>
+    </div>
+  </div>
+  <div class="retrato-banner">
+    <div class="tray-head">
+      <p class="rb-label">Su trayectoria con clubes y federaciones</p>
+      <div class="tray-nav">
+        <button type="button" id="trayPrev" aria-label="Fotos anteriores">&lsaquo;</button>
+        <button type="button" id="trayNext" aria-label="Fotos siguientes">&rsaquo;</button>
+      </div>
+    </div>
+    <div class="tray-track" id="trayTrack" tabindex="0" role="group" aria-label="Su trayectoria con clubes y federaciones">
+        <div class="rb-card"><img src="assets/trayectoria-penarol.jpg" alt="Mónica Rosa Terra en el Club Atlético Peñarol" loading="lazy" decoding="async"><span>Club Atlético Peñarol</span></div>
+        <div class="rb-card"><img src="assets/trayectoria-nacional.jpg" alt="Mónica Rosa Terra con el plantel de Club Nacional de Football" loading="lazy" decoding="async"><span>Club Nacional de Football</span></div>
+        <div class="rb-card"><img src="assets/trayectoria-racing.jpg" alt="Mónica Rosa Terra con el cuerpo técnico de Racing Club" loading="lazy" decoding="async"><span>Cuerpo técnico · Racing Club</span></div>
+        <div class="rb-card"><img src="assets/trayectoria-liverpool.jpg" alt="Mónica Rosa Terra con el plantel de Liverpool Fútbol Club" loading="lazy" decoding="async"><span>Liverpool Fútbol Club</span></div>
+        <div class="rb-card"><img src="assets/trayectoria-wanderers.jpg" alt="Mónica Rosa Terra con las campeonas de Wanderers Femenino" loading="lazy" decoding="async"><span>Campeonas · Wanderers Femenino</span></div>
+        <div class="rb-card"><img src="assets/trayectoria-hockey.jpg" alt="Mónica Rosa Terra con la Selección Masculina de Hockey" loading="lazy" decoding="async"><span>Selección Masculina de Hockey</span></div>
+        <div class="rb-card"><img src="assets/trayectoria-boxeo.jpg" alt="Mónica Rosa Terra en la Fundación Quebracho, Escuela de Boxeo" loading="lazy" decoding="async"><span>Fundación Quebracho · Escuela de Boxeo</span></div>
+        <div class="rb-card"><img src="assets/trayectoria-bostonriver.jpg" alt="Mónica Rosa Terra con el plantel de Boston River" loading="lazy" decoding="async"><span>Boston River Fútbol Club</span></div>
+        <div class="rb-card"><img src="assets/trayectoria-defensor.jpg" alt="Mónica Rosa Terra dando una charla técnica en Defensor Sporting" loading="lazy" decoding="async"><span>Charla técnica · Defensor Sporting</span></div>
+        <div class="rb-card"><img src="assets/trayectoria-rentistas.jpg" alt="Mónica Rosa Terra con el plantel de Club Rentistas" loading="lazy" decoding="async"><span>Club Rentistas</span></div>
+        <div class="rb-card"><img src="assets/trayectoria-torque.jpg" alt="Mónica Rosa Terra con el plantel de El Torque Fútbol Club" loading="lazy" decoding="async"><span>El Torque Fútbol Club</span></div>
+        <div class="rb-card"><img src="assets/trayectoria-mutual.jpg" alt="Mónica Rosa Terra con Diego Scotti, presidente de la Mutual Uruguaya de Futbolistas Profesionales" loading="lazy" decoding="async"><span>Mutual Uruguaya de Futbolistas Profesionales</span></div>
+        <div class="rb-card"><img src="assets/trayectoria-baloncesto.jpg" alt="Mónica Rosa Terra con el cuerpo técnico de San Pablo Burgos Baloncesto" loading="lazy" decoding="async"><span>San Pablo Burgos · Baloncesto</span></div>
+        <div class="rb-card"><img src="assets/trayectoria-aecc.jpg" alt="Mónica Rosa Terra colaborando con la Asociación Española Contra el Cáncer en Salamanca" loading="lazy" decoding="async"><span>Asociación Española Contra el Cáncer</span></div>
+        <div class="rb-card"><img src="assets/trayectoria-danza.jpg" alt="Mónica Rosa Terra en la Escuela de Danza Amor de Dios, Madrid" loading="lazy" decoding="async"><span>Escuela de Danza Amor de Dios · Madrid</span></div>
+        <div class="rb-card"><img src="assets/trayectoria-sanpablo-cantera.jpg" alt="Mónica Rosa Terra con el equipo profesional del San Pablo Burgos Baloncesto" loading="lazy" decoding="async"><span>San Pablo Burgos · Equipo profesional</span></div>
+        <div class="rb-card"><img src="assets/trayectoria-sanpablo-training.jpg" alt="Mónica Rosa Terra en el training camp de Curro Segura, Almuñécar 2023" loading="lazy" decoding="async"><span>Curro Segura Training Camp 2023</span></div>
+        <div class="rb-card"><img src="assets/trayectoria-tenismesa.jpg" alt="Mónica Rosa Terra con jugadores federados del Club Tenis de Mesa Almuñécar" loading="lazy" decoding="async"><span>CTM Almuñécar · Tenis de Mesa</span></div>
+        <div class="rb-card"><img src="assets/trayectoria-bomberos.jpg" alt="Mónica Rosa Terra dando una charla a los Bomberos de Almuñécar" loading="lazy" decoding="async"><span>Charla · Bomberos de Almuñécar</span></div>
+        <div class="rb-card"><img src="assets/trayectoria-sanpablo-training2025.jpg" alt="Mónica Rosa Terra en el training camp de Curro Segura, 2025" loading="lazy" decoding="async"><span>Curro Segura Training Camp 2025</span></div>
+        <div class="rb-card"><img src="assets/trayectoria-colegio-ninas.jpg" alt="Mónica Rosa Terra dando una charla sobre deporte y alimentación para niñas en Almuñécar" loading="lazy" decoding="async"><span>Charla · Deporte y alimentación para niñas</span></div>
+    </div>
+  </div>
+</section>
+
+
+<section id="metodo" class="tercios-section on-dark">
+  <div class="wrap">
+    <div class="marginalia" data-sc="titulo">
+      <h2 class="mtitle"><span class="sube">El <em>Método</em></span></h2>
+    </div>
+    <div class="tercios-intro">
+      <p><span class="linea">Forjamos vuestra mejor versión</span> <span class="linea">sin cambiar la esencia.</span></p>
+      <p><img class="temple-word-img" src="assets/temple-wordmark.png" alt="TEMPLE"> está diseñado exclusivamente para profesionales taurinos combinando ciencia y tradición, basado en un sistema de alto&nbsp;rendimiento deportivo y gestión del estrés extremo, para que el organismo del atleta funcione con compás, equilibrio y máxima eficiencia. No son pautas restrictivas, sino un protocolo de preparación biológica integral estructurado en varias fases. El objetivo general es alinear el coaching nutricional con la exigencia física y la solemnidad del ruedo, permitiendo al profesional mantener la lucidez, fuerza explosiva, flexibilidad, ligereza y el fondo físico intactos en cada compromiso, preservando su integridad.</p>
+      <p>Combinamos ciencia y tradición para darle al cuerpo exactamente lo que necesita: rendir en el ruedo, recuperarse rápidamente de la fatiga o de una cornada, aguantar una feria de cuatro tardes seguidas o mantenerse alerta en el callejón tras toda una noche viajando. Acompañamos el proceso y facilitamos los cambios para alcanzar sus objetivos.</p>
+      <p>Gestionamos los obstáculos con herramientas prácticas para el día a día o para las temporadas de luces, sintiendo el orgullo del autocuidado en cada detalle y siendo protagonista de sus propios logros.</p>
+    </div>
+    <div class="tercios">
+      <div class="tercio">
+        <span class="num-ghost">01</span>
+        <div class="tercio-media" data-sc="foto"><img src="assets/torero-4-plaza-madrid.jpg" alt="Atleta parando la embestida con el capote, cara a cara con el toro" loading="lazy" decoding="async"><img class="boceto" src="assets/torero-4-plaza-madrid-boceto.webp" alt="" aria-hidden="true" loading="lazy" decoding="async"><i class="aguja"></i></div>
+        <div class="tercio-body">
+          <h3>Parar</h3>
+          <p>El diagnóstico. Estudiamos a fondo el punto de partida conociendo la situación actual de salud, composición corporal, hábitos, energía y carga física. Planteamos conjuntamente los objetivos para luego diseñar el plan de acción con las estrategias nutricionales que optimicen los resultados.</p>
+        </div>
+      </div>
+      <div class="tercio">
+        <span class="num-ghost">02</span>
+        <div class="tercio-media" data-sc="foto"><img src="assets/hero-torero.jpg" alt="Atleta con el compás templado, dominando el ritmo del pase" loading="lazy" decoding="async"><img class="boceto" src="assets/hero-boceto.webp" alt="" aria-hidden="true" loading="lazy" decoding="async"><i class="aguja"></i></div>
+        <div class="tercio-body">
+          <h3>Templar</h3>
+          <p>Suavizar la transición, reeducando y adecuando la alimentación a sus necesidades, gustos y estilo de vida, disminuyendo la ansiedad por ver resultados inmediatos, para la regulación de la energía, estabilizando y mejorando el sistema digestivo y nervioso.</p>
+        </div>
+      </div>
+      <div class="tercio">
+        <span class="num-ghost">03</span>
+        <div class="tercio-media" data-sc="foto"><img src="assets/tercio-mandar.jpg" alt="Atleta dominando la embestida del toro con la muleta, en plena explosión de fuerza" loading="lazy" decoding="async"><img class="boceto" src="assets/tercio-mandar-boceto.webp" alt="" aria-hidden="true" loading="lazy" decoding="async"><i class="aguja"></i></div>
+        <div class="tercio-body">
+          <h3>Mandar</h3>
+          <p>Una vez que hay sincronía y el atleta ya confía en el proceso, el coach guía y acompaña la estrategia hacia el máximo rendimiento físico y el cumplimiento de sus objetivos.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="filosofia" class="claves-section">
+  <div class="wrap claves-grid">
+    <div class="claves-intro">
+      <div class="marginalia" data-sc="titulo"><h2 class="mtitle"><span class="sube">La <em>filosofía</em></span></h2></div>
+      <p>Acompañamos a los profesionales de la tauromaquia en la gestión de su preparación física y en el entrenamiento invisible, desarrollando protocolos científicos de nutrición y de hábitos que blindan su organismo frente al estrés de la temporada, aceleran su recuperación y preservan su integridad física.</p>
+      <p>Facilitamos el cambio hacia nuevos hábitos alimentarios, conscientes y sostenibles, durante el trabajo de campo y la exigencia extrema de la lidia.</p>
+      <p>Optimizamos el rendimiento biofisiológico y la capacidad de respuesta adaptativa con un método personalizado, en concordancia con la preparación física, para afrontar el rigor de los entrenamientos con su máximo potencial.</p>
+    </div>
+    <div class="claves-objetivos">
+      <p class="label">Objetivos</p>
+      <ul class="claves-list" data-sc="lista">
+        <li style="--i:0"><span class="cl-text">Recomposición corporal</span></li>
+        <li style="--i:1"><span class="cl-text">Flexibilidad metabólica</span></li>
+        <li style="--i:2"><span class="cl-text">Prevención de la RED-S: disponibilidad energética óptima para evitar problemas hormonales y lesiones óseo-articulares o musculares</span></li>
+        <li style="--i:3"><span class="cl-text">Acelerar la recuperación física</span></li>
+        <li style="--i:4"><span class="cl-text">Planificación de la longevidad deportiva</span></li>
+        <li style="--i:5"><span class="cl-text">Gobernar el "estómago cerrado"</span></li>
+        <li style="--i:6"><span class="cl-text">Adaptar la nutrición a la itinerancia</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="ruptura" data-sc="paralaje">
+  <img class="ruptura-photo" src="assets/belmonte-ruptura.jpg" alt="" loading="lazy" decoding="async">
+  <div class="ruptura-inner">
+    <p>&ldquo;El toreo es arte, misterio y liturgia.&rdquo;</p>
+    <p class="ruptura-credit">Juan Belmonte, 1926</p>
+  </div>
+</section>
+
+<section class="frases-section">
+  <div class="mk-marquee">
+    <div class="mk-marquee-track">
+      <span>El atleta de luces es de élite y su valor merece ciencia<span class="sep">·</span></span>
+      <span>El arte se lleva en el alma, la fuerza en el cuerpo<span class="sep">·</span></span>
+      <span>El arte del buen comer para el arte del buen torear<span class="sep">·</span></span>
+      <span>La ciencia de hoy al servicio del arte de siempre<span class="sep">·</span></span>
+      <span>El que sabe parar, domina<small>— Juan Belmonte</small><span class="sep">·</span></span>
+      <span>Se torea como se es<small>— Juan Belmonte</small><span class="sep">·</span></span>
+    </div>
+  </div>
+</section>
+
+<section id="mujeres" class="mujeres-section">
+  <div class="mujeres-grid">
+    <div class="mujeres-figure" data-sc="foto">
+      <img src="assets/mujeres-torera.jpg" alt="Rejoneadora en plena faena a caballo" loading="lazy" decoding="async"><img class="boceto" src="assets/mujeres-torera-boceto.webp" alt="" aria-hidden="true" loading="lazy" decoding="async"><i class="aguja"></i>
+      <span class="mujeres-credit">Léa Vicens · Foto: Pablo Cobos (CC BY-SA 4.0)</span>
+    </div>
+    <div class="mujeres-copy">
+      <div class="marginalia" data-sc="titulo"><h2 class="mtitle"><span class="sube">Mujeres de <em>luces</em></span></h2></div>
+      <div class="mujeres-quote">
+        <p>&ldquo;Vuestra fuerza tiene su propia naturaleza. Nutra la ventaja de ser mujer en el ruedo.&rdquo;</p>
+      </div>
+      <p>La mujer no solo se enfrenta al animal y al miedo, sino también a una fisonomía diferente.</p>
+      <p>Los requerimientos nutricionales no son los mismos que los de un hombre: el gasto energético, los ciclos hormonales y la recuperación se trabajan de forma distinta. El plan de coaching nutricional de la atleta se diseña desde las diferencias en los factores biológicos, fisiológicos y biomecánicos que influyen directamente en el rendimiento deportivo.</p>
+      <p>Optimizamos y potenciamos vuestro rendimiento respetando la biología, biomecánica y psicología propias de la mujer. Para que vuestra fuerza en el ruedo sea imparable utilizamos el ciclo folicular, la eficiencia metabólica, la gestión energética más constante, la resistencia a la fatiga y la flexibilidad como ventajas tácticas vinculadas a las estrategias nutricionales.</p>
+    </div>
+  </div>
+</section>
+
+<section id="escuelas" class="escuelas-section">
+  <div class="wrap escuelas-wrap">
+    <div class="marginalia" data-sc="titulo"><h2 class="mtitle"><span class="sube">Escuelas de <em>tauromaquia</em></span></h2></div>
+    <div class="escuelas-intro">
+      <p>La optimización nutricional adaptada a los futuros toreros.</p>
+      <p class="escuelas-tagline">&ldquo;Nutrición para el traje de luces: combustible y rendimiento en el ruedo&rdquo;</p>
+      <p>El toreo evoluciona y las grandes figuras de hoy se cuidan como atletas de élite. Empezar esa educación desde la base es fundamental para que los jóvenes crezcan, desarrollen su potencial y alcancen el máximo rendimiento en su futura profesión.</p>
+      <p>Introducir el coaching nutricional en el programa de la escuela no solo protege la salud de los alumnos, sino que les ayudará exponencialmente en el rendimiento y los resultados, generando una diferenciación competitiva: listos para triunfar y dejar el nombre de la escuela en lo más alto.</p>
+      <p>Trabajamos con escuelas taurinas de toda España y otros países mediante un sistema adaptado a vuestros horarios y necesidades, tanto en forma presencial como online, coordinando con la dirección de la escuela para ser parte del staff multidisciplinario y sumar desde la nutrición en el rendimiento del joven atleta.</p>
+      <p>Nos adaptamos a la estructura y presupuesto de la escuela mediante programas flexibles con diferentes formatos de trabajo:</p>
+    </div>
+    <div class="programa-insert">
+      <ul class="programa-list">
+        <li>Talleres grupales (online o presencial)</li>
+        <li>Sesiones dinámicas para alumnos y profesores</li>
+        <li>Planes nutricionales colectivos</li>
+        <li>Seguimiento premium individual</li>
+        <li>Asesoría y seguimiento digital</li>
+      </ul>
+    </div>
+    <div class="escuelas-cta">
+      <a class="cta-big alt" href="#contacto" data-asunto="Escuelas de tauromaquia">Solicitar propuesta para su escuela</a>
+    </div>
+  </div>
+</section>
+
+<section id="servicios" class="servicios-section">
+  <div class="wrap">
+    <div class="marginalia" data-sc="titulo"><h2 class="mtitle"><span class="sube">Servicios</span></h2></div>
+    <p class="servicios-intro">Cada cuerpo y cada temporada requiere un esfuerzo diferente. Diseño su presupuesto tras analizar la situación actual y el calendario de contratos, ya sea para una consulta individual, una cuadrilla o una escuela, en formato online, presencial o híbrido.</p>
+    <p class="servicios-discrecion">Trato con total discreción y confidencialidad, dentro y fuera del ruedo.</p>
+    <div class="servicios-grid">
+      <details class="svc-tile" name="servicio">
+        <summary>
+          <div class="svc-photo" data-sc="foto" style="background-image:url('assets/svc-atleta.jpg');"><span class="boceto boceto-bg" style="background-image:url('assets/svc-atleta-boceto.webp');"></span><i class="aguja"></i><span class="svc-photo-label">Profesional individual</span></div>
+        </summary>
+        <div class="svc-info">
+          <p class="ledger-desc">Plan nutricional personalizado, adaptado a su calendario de temporada, viajes y competición.</p>
+          <ul class="svc-plan-list">
+            <li>Mensual</li>
+            <li>Trimestral básico</li>
+            <li>Semestral pro</li>
+            <li>Anual premium</li>
+            <li>Planes por temporadas</li>
+            <li>Bono solo fiestas (5 fiestas)</li>
+          </ul>
+          <a class="cta-big alt svc-cta" href="#contacto" data-asunto="Profesional individual">Solicitar presupuesto a medida</a>
+        </div>
+      </details>
+      <details class="svc-tile" name="servicio">
+        <summary>
+          <div class="svc-photo" data-sc="foto" style="background-image:url('assets/svc-cuadrillas.jpg');"><span class="boceto boceto-bg" style="background-image:url('assets/svc-cuadrillas-boceto.webp');"></span><i class="aguja"></i><span class="svc-photo-label">Cuadrillas</span></div>
+        </summary>
+        <div class="svc-info">
+          <p class="ledger-desc">Rendimiento colectivo: ideal para matadores o apoderados que quieren asegurar que todo el equipo rinda al máximo durante la temporada.</p>
+          <ul class="svc-plan-list">
+            <li><b>Talleres grupales</b>Online o presencial, antes de iniciar la temporada, para coordinar las pautas de alimentación de todo el equipo.</li>
+            <li><b>Planes individuales para subalternos</b>Estrategias antifatiga, el botiquín de hidratación en el callejón, menús de furgoneta y ruta.</li>
+          </ul>
+          <a class="cta-big alt svc-cta" href="#contacto" data-asunto="Cuadrillas">Solicitar presupuesto para mi cuadrilla</a>
+        </div>
+      </details>
+      <details class="svc-tile" name="servicio">
+        <summary>
+          <div class="svc-photo" data-sc="foto" style="background-image:url('assets/svc-escuelas.jpg');"><span class="boceto boceto-bg" style="background-image:url('assets/svc-escuelas-boceto.webp');"></span><i class="aguja"></i><span class="svc-photo-label">Escuelas</span></div>
+        </summary>
+        <div class="svc-info">
+          <p class="ledger-desc">La optimización nutricional adaptada a los futuros toreros — la cantera de las figuras del mañana.</p>
+          <ul class="svc-plan-list">
+            <li><b>Talleres grupales</b>Charlas y talleres de nutrición deportiva para toda la escuela.</li>
+            <li><b>Planes individuales</b>Seguimiento personalizado para los alumnos que quieran ir más allá.</li>
+          </ul>
+          <a class="cta-big alt svc-cta" href="#contacto" data-asunto="Escuelas">Solicitar presupuesto a medida</a>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="tienda-section" id="tienda">
+  <div class="wrap">
+    <div class="marginalia" data-sc="titulo"><h2 class="mtitle on-dark">Tienda <img class="mtitle-wordmark" src="assets/temple-wordmark.png" alt="Temple"></h2></div>
+    <p class="tienda-intro"><span class="linea">Detalles con el sello de la marca, para el día a día o para acompañar al atleta a la plaza.</span> <span class="linea">Envío a coordinar según destino.</span></p>
+    <div class="tienda-grid">
+      <div class="tienda-card" data-id="gorra" data-name="Gorra bordada" data-price="16.90"
+           data-desc="Algodón, ajuste regulable, monograma dorado."
+           data-images="assets/tienda-gorra.jpg,assets/tienda-gorra-2.jpg" data-sizes="">
+        <div class="tienda-photo"><img src="assets/tienda-gorra.jpg" alt="Gorra bordada TEMPLE" loading="lazy"><span class="tienda-spin-hint">⟳ Ver en 360°</span></div>
+        <div class="tienda-body">
+          <p class="tienda-name">Gorra bordada</p>
+          <p class="tienda-desc">Algodón, ajuste regulable, monograma dorado.</p>
+          <p class="tienda-price">16,90 € <small>IVA incl.</small></p>
+          <div class="tienda-foot">
+            <div class="qty-stepper"><button type="button" class="qty-minus" aria-label="Restar">−</button><span class="qty-val">1</span><button type="button" class="qty-plus" aria-label="Sumar">+</button></div>
+            <button type="button" class="btn-add">Añadir</button>
+          </div>
+        </div>
+      </div>
+      <div class="tienda-card" data-id="pegatina-temple" data-name="Pegatina Temple" data-price="3.50"
+           data-desc="Vinilo resistente al agua, 8 cm. Solo la palabra TEMPLE."
+           data-images="assets/tienda-pegatina-temple.jpg,assets/tienda-pegatina-temple-2.jpg" data-sizes="">
+        <div class="tienda-photo"><img src="assets/tienda-pegatina-temple.jpg" alt="Pegatina TEMPLE" loading="lazy"><span class="tienda-spin-hint">⟳ Ver en 360°</span></div>
+        <div class="tienda-body">
+          <p class="tienda-name">Pegatina Temple</p>
+          <p class="tienda-desc">Vinilo resistente al agua, 8 cm. Solo la palabra TEMPLE.</p>
+          <p class="tienda-price">3,50 € <small>IVA incl.</small></p>
+          <div class="tienda-foot">
+            <div class="qty-stepper"><button type="button" class="qty-minus" aria-label="Restar">−</button><span class="qty-val">1</span><button type="button" class="qty-plus" aria-label="Sumar">+</button></div>
+            <button type="button" class="btn-add">Añadir</button>
+          </div>
+        </div>
+      </div>
+      <div class="tienda-card" data-id="pegatina-logo" data-name="Pegatina Logo Temple" data-price="3.50"
+           data-desc="Vinilo resistente al agua, 8 cm. Solo el escudo."
+           data-images="assets/tienda-pegatina-logo.jpg,assets/tienda-pegatina-logo-2.jpg" data-sizes="">
+        <div class="tienda-photo"><img src="assets/tienda-pegatina-logo.jpg" alt="Pegatina Logo TEMPLE" loading="lazy"><span class="tienda-spin-hint">⟳ Ver en 360°</span></div>
+        <div class="tienda-body">
+          <p class="tienda-name">Pegatina Logo Temple</p>
+          <p class="tienda-desc">Vinilo resistente al agua, 8 cm. Solo el escudo.</p>
+          <p class="tienda-price">3,50 € <small>IVA incl.</small></p>
+          <div class="tienda-foot">
+            <div class="qty-stepper"><button type="button" class="qty-minus" aria-label="Restar">−</button><span class="qty-val">1</span><button type="button" class="qty-plus" aria-label="Sumar">+</button></div>
+            <button type="button" class="btn-add">Añadir</button>
+          </div>
+        </div>
+      </div>
+      <div class="tienda-card" data-id="taza" data-name="Taza Temple" data-price="12.90"
+           data-desc="Cerámica blanca, 325 ml, apta lavavajillas."
+           data-images="assets/tienda-taza.jpg,assets/tienda-taza-2.jpg,assets/tienda-taza-3.jpg" data-sizes="">
+        <div class="tienda-photo"><img src="assets/tienda-taza.jpg" alt="Taza TEMPLE" loading="lazy"><span class="tienda-spin-hint">⟳ Ver en 360°</span></div>
+        <div class="tienda-body">
+          <p class="tienda-name">Taza Temple</p>
+          <p class="tienda-desc">Cerámica blanca, 325 ml, apta lavavajillas.</p>
+          <p class="tienda-price">12,90 € <small>IVA incl.</small></p>
+          <div class="tienda-foot">
+            <div class="qty-stepper"><button type="button" class="qty-minus" aria-label="Restar">−</button><span class="qty-val">1</span><button type="button" class="qty-plus" aria-label="Sumar">+</button></div>
+            <button type="button" class="btn-add">Añadir</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cierre-section">
+  <div class="wrap">
+    <div class="cierre-lockup" data-sc="cierre">
+      <p class="cierre-line" style="--i:0">Si busca alcanzar su mejor versión</p>
+      <p class="cierre-line" style="--i:1">y llegar a la plaza en su justo compás,</p>
+      <p class="cierre-line" style="--i:2">las puertas de</p>
+      <p class="cierre-temple"><img class="cierre-wordmark-big" src="assets/temple-wordmark.png" alt="TEMPLE"></p>
+      <p class="cierre-line" style="--i:4">están abiertas para usted.</p>
+    </div>
+  </div>
+</section>
+
+<footer id="contacto">
+  <div class="wrap">
+    <div class="ticket">
+      <div class="ticket-top">
+        <div>
+          <h2>Hablemos de su temporada</h2>
+          <p>Cuánto le queda, cómo van los viajes, qué le preocupa de su preparación. Cuénteme y diseño la estrategia nutricional que necesita. Le respondo yo misma, el mismo día.</p>
+        </div>
+        <div class="ticket-cta">
+          <form class="contact-form" id="contactForm">
+            <p class="contact-asunto" id="contactAsunto" hidden></p>
+            <input type="text" id="cfNombre" name="nombre" placeholder="Su nombre" aria-label="Su nombre" autocomplete="name" required>
+            <input type="email" id="cfEmail" name="email" placeholder="Su email" aria-label="Su email" autocomplete="email" required>
+            <textarea id="cfMensaje" name="mensaje" rows="4" placeholder="Cuénteme brevemente su situación" aria-label="Cuénteme brevemente su situación" required></textarea>
+            <p class="contact-note">Le respondo yo misma por correo, normalmente el mismo día.</p>
+            <button type="submit" class="cta-big">Solicitar valoración</button>
+            <p class="contact-sent" id="contactSent">Se ha abierto su gestor de correo con el mensaje listo — solo tiene que pulsar enviar.</p>
+          </form>
+        </div>
+      </div>
+      <div class="foot-contact">
+        <a href="mailto:templecoachingnutricional@gmail.com">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+          templecoachingnutricional@gmail.com
+        </a>
+        <div class="fc-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Granada, España
+        </div>
+        <div class="fc-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          9:00–14:00 y 16:00–21:00
+        </div>
+        <a href="https://www.instagram.com/templecoachingnutricional/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          Instagram
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=61594261478376&locale=es_ES" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          Facebook
+        </a>
+        <a href="https://www.linkedin.com/in/monica-rosa-b84281161/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V8h4v1.5A5.98 5.98 0 0 1 16 8z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+    <p class="foot-bottom">TEMPLE · Mónica Rosa Terra — Coaching Nutricional de Alto&nbsp;Rendimiento para Atletas de Luces</p>
+  </div>
+</footer>
+
+<div class="cart-overlay" id="cartOverlay"></div>
+<aside class="cart-drawer" id="cartDrawer" data-lenis-prevent aria-label="Carrito de compra">
+  <div class="cart-head">
+    <h3>Tu carrito</h3>
+    <button class="cart-close" id="cartCloseBtn" aria-label="Cerrar carrito">&times;</button>
+  </div>
+  <div class="cart-items" id="cartItems">
+    <p class="cart-empty">Tu carrito está vacío.</p>
+  </div>
+  <div class="cart-foot">
+    <div class="cart-subtotal"><span>Subtotal</span><span id="cartSubtotal">0,00 €</span></div>
+    <a class="cart-checkout" id="cartCheckout" href="#">Finalizar por correo</a>
+    <p class="cart-note">Se abre su correo con el pedido ya escrito — confirmamos stock, envío y forma de pago por ahí.</p>
+  </div>
+</aside>
+
+<div class="pm-overlay" id="pmOverlay"></div>
+<div class="product-modal" id="productModal" role="dialog" aria-label="Detalle del producto" data-lenis-prevent>
+  <button class="pm-close" id="pmClose" aria-label="Cerrar">&times;</button>
+  <div class="pm-gallery" id="pmGallery">
+    <span class="pm-spin-badge" id="pmSpinBadge">⟳ Arrastra para girar</span>
+    <img id="pmImage" src="" alt="">
+    <button type="button" class="pm-arrow pm-prev" id="pmPrev" aria-label="Anterior">‹</button>
+    <button type="button" class="pm-arrow pm-next" id="pmNext" aria-label="Siguiente">›</button>
+    <div class="pm-dots" id="pmDots"></div>
+  </div>
+  <div class="pm-info">
+    <h3 id="pmName"></h3>
+    <p class="pm-desc" id="pmDesc"></p>
+    <p class="pm-price" id="pmPrice"></p>
+    <div class="pm-sizes" id="pmSizesWrap">
+      <p>Elige cantidad por talla</p>
+      <div class="pm-size-rows" id="pmSizeOpts"></div>
+      <p class="pm-size-warn" id="pmSizeWarn">Elige al menos una talla y cantidad para añadir al carrito.</p>
+    </div>
+    <div class="tienda-foot" id="pmPlainQtyWrap">
+      <div class="qty-stepper" id="pmQtyStepper"><button type="button" class="qty-minus" aria-label="Restar">−</button><span class="qty-val">1</span><button type="button" class="qty-plus" aria-label="Sumar">+</button></div>
+      <button type="button" class="btn-add" id="pmAddBtn">Añadir</button>
+    </div>
+    <button type="button" class="btn-add pm-add-sizes" id="pmAddSizesBtn">Añadir al carrito</button>
+  </div>
+</div>
+
+<script>
+(function(){
+  var CART_KEY = "temple_cart_v1";
+  var cart = [];
+  try { cart = JSON.parse(localStorage.getItem(CART_KEY)) || []; } catch(e){ cart = []; }
+
+  var euro = function(n){ return n.toLocaleString('es-ES', {minimumFractionDigits:2, maximumFractionDigits:2}) + " €"; };
+  var save = function(){ try { localStorage.setItem(CART_KEY, JSON.stringify(cart)); } catch(e){} };
+
+  function render(){
+    var itemsEl = document.getElementById('cartItems');
+    var badge = document.getElementById('cartBadge');
+    var subtotalEl = document.getElementById('cartSubtotal');
+    var checkoutEl = document.getElementById('cartCheckout');
+
+    var totalQty = cart.reduce(function(s,i){ return s + i.qty; }, 0);
+    badge.textContent = totalQty;
+    badge.setAttribute('data-empty', totalQty === 0 ? 'true' : 'false');
+
+    if (cart.length === 0){
+      itemsEl.innerHTML = '<p class="cart-empty">Tu carrito está vacío.</p>';
+    } else {
+      itemsEl.innerHTML = cart.map(function(item, idx){
+        return '<div class="cart-line">' +
+          '<img src="' + item.img + '" alt="">' +
+          '<div class="cart-line-info">' +
+            '<div class="cart-line-name">' + item.name + '</div>' +
+            '<div class="cart-line-price">' + item.qty + ' × ' + euro(item.price) + '</div>' +
+            '<button type="button" class="cart-line-remove" data-idx="' + idx + '">Quitar</button>' +
+          '</div>' +
+        '</div>';
+      }).join('');
+    }
+
+    var subtotal = cart.reduce(function(s,i){ return s + i.qty * i.price; }, 0);
+    subtotalEl.textContent = euro(subtotal);
+
+    var msgLines = cart.map(function(i){ return "• " + i.qty + " × " + i.name + " — " + euro(i.qty*i.price); });
+    var body = "Hola Mónica, quiero hacer este pedido de la tienda Temple:\n" + msgLines.join("\n") + "\nSubtotal: " + euro(subtotal);
+    checkoutEl.href = "mailto:templecoachingnutricional@gmail.com?subject=" + encodeURIComponent("Pedido tienda Temple") + "&body=" + encodeURIComponent(body);
+    if (cart.length === 0){
+      checkoutEl.classList.add('is-disabled');
+    } else {
+      checkoutEl.classList.remove('is-disabled');
+    }
+
+    itemsEl.querySelectorAll('.cart-line-remove').forEach(function(btn){
+      btn.addEventListener('click', function(){
+        cart.splice(parseInt(btn.getAttribute('data-idx'), 10), 1);
+        save(); render();
+      });
+    });
+
+    save();
+  }
+
+  function addToCart(id, name, price, img, qty){
+    var existing = cart.find(function(i){ return i.id === id; });
+    if (existing){ existing.qty += qty; } else { cart.push({id:id, name:name, price:price, img:img, qty:qty}); }
+    render();
+    var badge = document.getElementById('cartBadge');
+    badge.classList.add('is-bump');
+    setTimeout(function(){ badge.classList.remove('is-bump'); }, 250);
+  }
+
+  document.querySelectorAll('.tienda-card').forEach(function(card){
+    var qtyStepper = card.querySelector(':scope > .tienda-body .qty-stepper, .tienda-foot .qty-stepper');
+    var qtyEl = card.querySelector('.qty-val');
+    var minus = card.querySelector('.qty-minus');
+    var plus = card.querySelector('.qty-plus');
+    if (minus) minus.addEventListener('click', function(){
+      var v = parseInt(qtyEl.textContent, 10);
+      if (v > 1) qtyEl.textContent = v - 1;
+    });
+    if (plus) plus.addEventListener('click', function(){
+      qtyEl.textContent = parseInt(qtyEl.textContent, 10) + 1;
+    });
+    var addBtn = card.querySelector('.btn-add');
+    if (addBtn && !addBtn.classList.contains('btn-view')){
+      addBtn.addEventListener('click', function(){
+        var qty = parseInt(qtyEl.textContent, 10);
+        var img = card.getAttribute('data-images').split(',')[0];
+        addToCart(card.getAttribute('data-id'), card.getAttribute('data-name'), parseFloat(card.getAttribute('data-price')), img, qty);
+        qtyEl.textContent = "1";
+        addBtn.textContent = "Añadido ✓";
+        addBtn.classList.add('is-added');
+        setTimeout(function(){ addBtn.textContent = "Añadir"; addBtn.classList.remove('is-added'); }, 1200);
+      });
+    }
+    card.querySelector('.tienda-photo').addEventListener('click', function(){ openProductModal(card); });
+    if (addBtn && addBtn.classList.contains('btn-view')){
+      addBtn.addEventListener('click', function(){ openProductModal(card); });
+    }
+  });
+
+  function openCart(){ document.getElementById('cartDrawer').classList.add('is-open'); document.getElementById('cartOverlay').classList.add('is-open'); }
+  function closeCart(){ document.getElementById('cartDrawer').classList.remove('is-open'); document.getElementById('cartOverlay').classList.remove('is-open'); }
+  document.getElementById('cartOpenBtn').addEventListener('click', openCart);
+  document.getElementById('cartCloseBtn').addEventListener('click', closeCart);
+  document.getElementById('cartOverlay').addEventListener('click', closeCart);
+
+  /* ---------- Modal de producto: galería que gira al arrastrar ---------- */
+  var pm = {
+    images: [], idx: 0,
+    id: '', name: '', price: 0, sizes: []
+  };
+  var pmImage = document.getElementById('pmImage');
+  var pmDots = document.getElementById('pmDots');
+  var pmGallery = document.getElementById('pmGallery');
+  var pmSizeOpts = document.getElementById('pmSizeOpts');
+  var pmSizesWrap = document.getElementById('pmSizesWrap');
+  var pmSizeWarn = document.getElementById('pmSizeWarn');
+  var pmQtyEl = document.querySelector('#pmQtyStepper .qty-val');
+  var pmPlainQtyWrap = document.getElementById('pmPlainQtyWrap');
+  var pmAddSizesBtn = document.getElementById('pmAddSizesBtn');
+  var pmSizeQty = {};
+
+  function pmSetImage(i){
+    pm.idx = ((i % pm.images.length) + pm.images.length) % pm.images.length;
+    pmImage.src = pm.images[pm.idx];
+    pmDots.querySelectorAll('button').forEach(function(b, bi){ b.classList.toggle('is-active', bi === pm.idx); });
+  }
+
+  function openProductModal(card){
+    pm.images = card.getAttribute('data-images').split(',');
+    pm.id = card.getAttribute('data-id');
+    pm.name = card.getAttribute('data-name');
+    pm.price = parseFloat(card.getAttribute('data-price'));
+    pm.sizes = (card.getAttribute('data-sizes') || '').split(',').filter(Boolean);
+    pm.idx = 0;
+
+    document.getElementById('pmName').textContent = pm.name;
+    document.getElementById('pmDesc').textContent = card.getAttribute('data-desc') || '';
+    document.getElementById('pmPrice').textContent = euro(pm.price);
+    pmQtyEl.textContent = '1';
+    document.getElementById('pmSpinBadge').style.display = pm.images.length > 1 ? 'block' : 'none';
+    document.getElementById('pmPrev').style.display = pm.images.length > 1 ? 'flex' : 'none';
+    document.getElementById('pmNext').style.display = pm.images.length > 1 ? 'flex' : 'none';
+
+    pmDots.innerHTML = pm.images.map(function(_, i){ return '<button type="button" data-i="' + i + '"></button>'; }).join('');
+    pmDots.querySelectorAll('button').forEach(function(b){ b.addEventListener('click', function(){ pmSetImage(parseInt(b.getAttribute('data-i'),10)); }); });
+    pmSetImage(0);
+
+    if (pm.sizes.length){
+      pmSizesWrap.style.display = 'block';
+      pmPlainQtyWrap.style.display = 'none';
+      pmAddSizesBtn.classList.add('show');
+      pmSizeQty = {};
+      pm.sizes.forEach(function(s){ pmSizeQty[s] = 0; });
+      pmSizeOpts.innerHTML = pm.sizes.map(function(s){
+        return '<div class="pm-size-row" data-size="' + s + '">' +
+          '<span class="pm-size-label">' + s + '</span>' +
+          '<div class="qty-stepper"><button type="button" class="qty-minus" aria-label="Restar">−</button><span class="qty-val">0</span><button type="button" class="qty-plus" aria-label="Sumar">+</button></div>' +
+        '</div>';
+      }).join('');
+      pmSizeOpts.querySelectorAll('.pm-size-row').forEach(function(row){
+        var size = row.getAttribute('data-size');
+        var valEl = row.querySelector('.qty-val');
+        row.querySelector('.qty-minus').addEventListener('click', function(){
+          var v = parseInt(valEl.textContent, 10);
+          if (v > 0){ v -= 1; valEl.textContent = v; pmSizeQty[size] = v; }
+        });
+        row.querySelector('.qty-plus').addEventListener('click', function(){
+          var v = parseInt(valEl.textContent, 10) + 1;
+          valEl.textContent = v; pmSizeQty[size] = v;
+          pmSizeWarn.classList.remove('show');
+        });
+      });
+      pmSizeWarn.classList.remove('show');
+    } else {
+      pmSizesWrap.style.display = 'none';
+      pmPlainQtyWrap.style.display = 'flex';
+      pmAddSizesBtn.classList.remove('show');
+    }
+
+    document.getElementById('productModal').classList.add('is-open');
+    document.getElementById('pmOverlay').classList.add('is-open');
+  }
+
+  function closeProductModal(){
+    document.getElementById('productModal').classList.remove('is-open');
+    document.getElementById('pmOverlay').classList.remove('is-open');
+  }
+
+  document.getElementById('pmClose').addEventListener('click', closeProductModal);
+  document.getElementById('pmOverlay').addEventListener('click', closeProductModal);
+  document.getElementById('pmPrev').addEventListener('click', function(){ pmSetImage(pm.idx - 1); });
+  document.getElementById('pmNext').addEventListener('click', function(){ pmSetImage(pm.idx + 1); });
+  document.querySelector('#pmQtyStepper .qty-minus').addEventListener('click', function(){
+    var v = parseInt(pmQtyEl.textContent,10); if (v>1) pmQtyEl.textContent = v-1;
+  });
+  document.querySelector('#pmQtyStepper .qty-plus').addEventListener('click', function(){
+    pmQtyEl.textContent = parseInt(pmQtyEl.textContent,10) + 1;
+  });
+
+  document.getElementById('pmAddBtn').addEventListener('click', function(){
+    var qty = parseInt(pmQtyEl.textContent, 10);
+    addToCart(pm.id, pm.name, pm.price, pm.images[0], qty);
+    var btn = document.getElementById('pmAddBtn');
+    btn.textContent = 'Añadido ✓'; btn.classList.add('is-added');
+    setTimeout(function(){ btn.textContent = 'Añadir'; btn.classList.remove('is-added'); }, 1200);
+    closeProductModal();
+  });
+
+  pmAddSizesBtn.addEventListener('click', function(){
+    var sizesToAdd = pm.sizes.filter(function(s){ return pmSizeQty[s] > 0; });
+    if (!sizesToAdd.length){
+      pmSizeWarn.classList.add('show');
+      return;
+    }
+    sizesToAdd.forEach(function(s){
+      var lineId = pm.id + '-' + s;
+      var lineName = pm.name + ' (talla ' + s + ')';
+      addToCart(lineId, lineName, pm.price, pm.images[0], pmSizeQty[s]);
+    });
+    pmAddSizesBtn.textContent = 'Añadido ✓'; pmAddSizesBtn.classList.add('is-added');
+    setTimeout(function(){ pmAddSizesBtn.textContent = 'Añadir al carrito'; pmAddSizesBtn.classList.remove('is-added'); }, 1200);
+    closeProductModal();
+  });
+
+  /* arrastrar la imagen para "girar" entre las fotos disponibles */
+  (function(){
+    var dragging = false, startX = 0, accum = 0, STEP = 55;
+    var start = function(x){ dragging = true; startX = x; accum = 0; pmGallery.classList.add('is-dragging'); };
+    var move = function(x){
+      if (!dragging || pm.images.length < 2) return;
+      var dx = x - startX;
+      accum += dx; startX = x;
+      if (Math.abs(accum) >= STEP){
+        pmSetImage(pm.idx + (accum > 0 ? -1 : 1));
+        accum = 0;
+      }
+    };
+    var end = function(){ dragging = false; pmGallery.classList.remove('is-dragging'); };
+    pmGallery.addEventListener('mousedown', function(e){ start(e.clientX); });
+    window.addEventListener('mousemove', function(e){ move(e.clientX); });
+    window.addEventListener('mouseup', end);
+    pmGallery.addEventListener('touchstart', function(e){ start(e.touches[0].clientX); }, {passive:true});
+    pmGallery.addEventListener('touchmove', function(e){ move(e.touches[0].clientX); }, {passive:true});
+    pmGallery.addEventListener('touchend', end);
+  })();
+
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape'){ closeProductModal(); closeCart(); }
+  });
+
+  /* ---------- Formulario de contacto: abre el correo con todo ya escrito ---------- */
+  var contactForm = document.getElementById('contactForm');
+  if (contactForm){
+    contactForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      var nombre = contactForm.nombre.value.trim();
+      var email = contactForm.email.value.trim();
+      var mensaje = contactForm.mensaje.value.trim();
+      var asunto = contactForm.getAttribute("data-asunto") || "";
+      var body = (asunto ? "Consulta sobre: " + asunto + "\n" : "") + "Nombre: " + nombre + "\nEmail: " + email + "\n\n" + mensaje;
+      var mailto = "mailto:templecoachingnutricional@gmail.com?subject=" + encodeURIComponent("Contacto desde la web — " + (asunto ? asunto + " — " : "") + nombre) + "&body=" + encodeURIComponent(body);
+      window.location.href = mailto;
+      document.getElementById('contactSent').classList.add('show');
+    });
+  }
+
+  render();
+})();
+</script>
+<script>
+/* "Nutrición con arte" ocupa exactamente el ancho de la palabra TEMPLE (de la T a la última E) */
+(function(){
+  var L=20/1020, R=1002/1020; // bordes visibles de las letras dentro de temple-wordmark.png
+  var pairs=[['.site-header .brand-wordmark','.site-header .brand-text > span'],['.hero-wordmark','.hero h1']];
+  function span(el){var k=el.children.length?el.querySelectorAll('.mk-w'):null;
+    if(k&&k.length){return k[k.length-1].getBoundingClientRect().right-k[0].getBoundingClientRect().left;}
+    var r=document.createRange();r.selectNodeContents(el);return r.getBoundingClientRect().width;}
+  function fit(){pairs.forEach(function(p){
+    var img=document.querySelector(p[0]),t=document.querySelector(p[1]);
+    if(!img||!t||!img.offsetWidth||!t.offsetParent)return;
+    t.style.fontSize='';t.style.letterSpacing='0px';
+    var W=img.getBoundingClientRect().width,T=W*(R-L),fs=parseFloat(getComputedStyle(t).fontSize);
+    t.style.marginLeft=(W*L)+'px';
+    var w0=span(t);t.style.letterSpacing='10px';var k=(span(t)-w0)/10;
+    var ls=k>1?(T-w0)/(k-1):0;
+    if(ls<fs*.04){fs=fs*T/(w0+fs*.04*(k-1));t.style.fontSize=fs+'px';t.style.letterSpacing='0px';w0=span(t);ls=k>1?(T-w0)/(k-1):0;}
+    t.style.letterSpacing=ls+'px';
+  });}
+  window.addEventListener('load',fit);window.addEventListener('resize',fit);
+  if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fit);
+  document.addEventListener('DOMContentLoaded',function(){setTimeout(fit,50);});
+})();
+</script>
+<script>
+/* TEMPLE v2 · menú, sección activa, barra de progreso, frases y tira de trayectoria */
+(function(){
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var header = document.getElementById('siteHeader');
+  var nav = document.getElementById('siteNav');
+  var menuBtn = document.getElementById('menuBtn');
+
+  // Barra de progreso de lectura
+  var bar = document.createElement('div');
+  bar.className = 'mk-progress';
+  document.body.appendChild(bar);
+  var onScroll = function(){
+    var h = document.documentElement;
+    var p = h.scrollTop / ((h.scrollHeight - h.clientHeight) || 1);
+    bar.style.transform = 'scaleX(' + p + ')';
+  };
+  addEventListener('scroll', onScroll, {passive:true}); onScroll();
+
+  // Menú en móvil y tableta
+  function setMenu(open){
+    header.classList.toggle('is-menu-open', open);
+    document.documentElement.classList.toggle('menu-lock', open);
+    menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    menuBtn.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
+  }
+  menuBtn.addEventListener('click', function(){ setMenu(!header.classList.contains('is-menu-open')); });
+  nav.addEventListener('click', function(e){ if (e.target.closest('a')) setMenu(false); });
+  addEventListener('keydown', function(e){ if (e.key === 'Escape') setMenu(false); });
+  addEventListener('resize', function(){ if (innerWidth > 1060) setMenu(false); });
+
+  // Marca en el menú la sección que se está leyendo
+  if ('IntersectionObserver' in window){
+    var links = {};
+    nav.querySelectorAll('a[href^="#"]').forEach(function(a){
+      var id = a.getAttribute('href').slice(1);
+      if (!links[id]) links[id] = a;
+    });
+    var spy = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if (!en.isIntersecting || !links[en.target.id]) return;
+        Object.keys(links).forEach(function(k){ links[k].removeAttribute('aria-current'); });
+        links[en.target.id].setAttribute('aria-current', 'true');
+      });
+    }, {rootMargin:'-45% 0px -50% 0px'});
+    Object.keys(links).forEach(function(id){
+      var sec = document.getElementById(id);
+      if (sec) spy.observe(sec);
+    });
+  }
+
+  // Un solo camino de contacto: los botones «Solicitar…» llevan al formulario y anotan el asunto
+  var cform = document.getElementById('contactForm');
+  var chip = document.getElementById('contactAsunto');
+  document.addEventListener('click', function(e){
+    var a = e.target.closest('[data-asunto]');
+    if (!a || !cform || !chip) return;
+    var asunto = a.getAttribute('data-asunto');
+    cform.setAttribute('data-asunto', asunto);
+    chip.textContent = 'Su consulta: ' + asunto;
+    chip.hidden = false;
+    setTimeout(function(){ var n = document.getElementById('cfNombre'); if (n) n.focus({preventScroll:true}); }, reduced ? 0 : 800);
+  });
+
+  // Frases: se duplica la tira para que el bucle no tenga corte
+  document.querySelectorAll('.mk-marquee-track').forEach(function(track){
+    Array.prototype.slice.call(track.children).forEach(function(item){
+      var copy = item.cloneNode(true);
+      copy.setAttribute('aria-hidden', 'true');
+      track.appendChild(copy);
+    });
+  });
+
+  // Trayectoria: cinta sin fin que corre de derecha a izquierda; las flechas y el dedo la adelantan o atrasan y sigue sola
+  var track = document.getElementById('trayTrack');
+  var prev = document.getElementById('trayPrev');
+  var next = document.getElementById('trayNext');
+  if (track && prev && next){
+    var originals = Array.prototype.slice.call(track.children);
+    originals.forEach(function(card){
+      var copy = card.cloneNode(true);
+      copy.setAttribute('aria-hidden', 'true');
+      track.appendChild(copy);
+    });
+    var firstCopy = track.children[originals.length];
+    var VELOCIDAD = 60; // píxeles por segundo
+    var pos = 0, last = 0, visible = true, holdUntil = 0, touching = false;
+    var loop = function(){ return firstCopy.offsetLeft - originals[0].offsetLeft; };
+    var stepSize = function(){ return (originals[0].getBoundingClientRect().width + 16) * 2; };
+    var hold = function(ms){ holdUntil = performance.now() + ms; };
+    var wrap = function(){
+      var w = loop();
+      if (w <= 0) return;
+      if (track.scrollLeft >= w) track.scrollLeft -= w;
+    };
+    prev.addEventListener('click', function(){
+      var w = loop(), step = stepSize();
+      if (track.scrollLeft < step) track.scrollLeft += w;
+      hold(900);
+      track.scrollBy({left:-step, behavior: reduced ? 'auto' : 'smooth'});
+    });
+    next.addEventListener('click', function(){
+      wrap();
+      hold(900);
+      track.scrollBy({left: stepSize(), behavior: reduced ? 'auto' : 'smooth'});
+    });
+    track.addEventListener('touchstart', function(){ touching = true; }, {passive:true});
+    ['touchend','touchcancel'].forEach(function(ev){ track.addEventListener(ev, function(){ touching = false; hold(600); }, {passive:true}); });
+    if ('IntersectionObserver' in window){
+      new IntersectionObserver(function(entries){ visible = entries[0].isIntersecting; }, {rootMargin:'200px 0px'}).observe(track);
+    }
+    var run = function(now){
+      var dt = Math.min(now - (last || now), 100); last = now;
+      if (touching || now < holdUntil){
+        pos = track.scrollLeft;
+      } else if (visible){
+        if (Math.abs(track.scrollLeft - pos) > 2) pos = track.scrollLeft;
+        pos += VELOCIDAD * dt / 1000;
+        var w = loop();
+        if (w > 0 && pos >= w) pos -= w;
+        track.scrollLeft = pos;
+      }
+      requestAnimationFrame(run);
+    };
+    if (!reduced) requestAnimationFrame(run);
+  }
+})();
+</script>
+<script>
+(function(){var e=`1.3.26`;function t(e,t,n){return Math.max(e,Math.min(t,n))}function n(e,t,n){return(1-n)*e+n*t}function r(e,t,r,i){return n(e,t,1-Math.exp(-r*i))}function i(e,t){return(e%t+t)%t}var a=class{isRunning=!1;value=0;from=0;to=0;currentTime=0;lerp;duration;easing;onUpdate;advance(e){if(!this.isRunning)return;let n=!1;if(this.duration&&this.easing){this.currentTime+=e;let r=t(0,this.currentTime/this.duration,1);n=r>=1;let i=n?1:this.easing(r);this.value=this.from+(this.to-this.from)*i}else this.lerp?(this.value=r(this.value,this.to,this.lerp*60,e),Math.round(this.value)===Math.round(this.to)&&(this.value=this.to,n=!0)):(this.value=this.to,n=!0);n&&this.stop(),this.onUpdate?.(this.value,n)}stop(){this.isRunning=!1}fromTo(e,t,{lerp:n,duration:r,easing:i,onStart:a,onUpdate:o}){this.from=this.value=e,this.to=t,this.lerp=n,this.duration=r,this.easing=i,this.currentTime=0,this.isRunning=!0,a?.(),this.onUpdate=o}};function o(e,t){let n;return function(...r){clearTimeout(n),n=setTimeout(()=>{n=void 0,e.apply(this,r)},t)}}var s=class{width=0;height=0;scrollHeight=0;scrollWidth=0;debouncedResize;wrapperResizeObserver;contentResizeObserver;constructor(e,t,{autoResize:n=!0,debounce:r=250}={}){this.wrapper=e,this.content=t,n&&(this.debouncedResize=o(this.resize,r),this.wrapper instanceof Window?window.addEventListener(`resize`,this.debouncedResize):(this.wrapperResizeObserver=new ResizeObserver(this.debouncedResize),this.wrapperResizeObserver.observe(this.wrapper)),this.contentResizeObserver=new ResizeObserver(this.debouncedResize),this.contentResizeObserver.observe(this.content)),this.resize()}destroy(){this.wrapperResizeObserver?.disconnect(),this.contentResizeObserver?.disconnect(),this.wrapper===window&&this.debouncedResize&&window.removeEventListener(`resize`,this.debouncedResize)}resize=()=>{this.onWrapperResize(),this.onContentResize()};onWrapperResize=()=>{this.wrapper instanceof Window?(this.width=window.innerWidth,this.height=window.innerHeight):(this.width=this.wrapper.clientWidth,this.height=this.wrapper.clientHeight)};onContentResize=()=>{this.wrapper instanceof Window?(this.scrollHeight=this.content.scrollHeight,this.scrollWidth=this.content.scrollWidth):(this.scrollHeight=this.wrapper.scrollHeight,this.scrollWidth=this.wrapper.scrollWidth)};get limit(){return{x:this.scrollWidth-this.width,y:this.scrollHeight-this.height}}},c=class{events={};emit(e,...t){let n=this.events[e]||[];for(let e=0,r=n.length;e<r;e++)n[e]?.(...t)}on(e,t){return this.events[e]?this.events[e].push(t):this.events[e]=[t],()=>{this.events[e]=this.events[e]?.filter(e=>t!==e)}}off(e,t){this.events[e]=this.events[e]?.filter(e=>t!==e)}destroy(){this.events={}}};let l={passive:!1};function u(e,t){return e===1?16.666666666666668:e===2?t:1}var d=class{touchStart={x:0,y:0};lastDelta={x:0,y:0};window={width:0,height:0};emitter=new c;constructor(e,t={wheelMultiplier:1,touchMultiplier:1}){this.element=e,this.options=t,window.addEventListener(`resize`,this.onWindowResize),this.onWindowResize(),this.element.addEventListener(`wheel`,this.onWheel,l),this.element.addEventListener(`touchstart`,this.onTouchStart,l),this.element.addEventListener(`touchmove`,this.onTouchMove,l),this.element.addEventListener(`touchend`,this.onTouchEnd,l)}on(e,t){return this.emitter.on(e,t)}destroy(){this.emitter.destroy(),window.removeEventListener(`resize`,this.onWindowResize),this.element.removeEventListener(`wheel`,this.onWheel,l),this.element.removeEventListener(`touchstart`,this.onTouchStart,l),this.element.removeEventListener(`touchmove`,this.onTouchMove,l),this.element.removeEventListener(`touchend`,this.onTouchEnd,l)}onTouchStart=e=>{let{clientX:t,clientY:n}=e.targetTouches?e.targetTouches[0]:e;this.touchStart.x=t,this.touchStart.y=n,this.lastDelta={x:0,y:0},this.emitter.emit(`scroll`,{deltaX:0,deltaY:0,event:e})};onTouchMove=e=>{let{clientX:t,clientY:n}=e.targetTouches?e.targetTouches[0]:e,r=-(t-this.touchStart.x)*this.options.touchMultiplier,i=-(n-this.touchStart.y)*this.options.touchMultiplier;this.touchStart.x=t,this.touchStart.y=n,this.lastDelta={x:r,y:i},this.emitter.emit(`scroll`,{deltaX:r,deltaY:i,event:e})};onTouchEnd=e=>{this.emitter.emit(`scroll`,{deltaX:this.lastDelta.x,deltaY:this.lastDelta.y,event:e})};onWheel=e=>{let{deltaX:t,deltaY:n,deltaMode:r}=e,i=u(r,this.window.width),a=u(r,this.window.height);t*=i,n*=a,t*=this.options.wheelMultiplier,n*=this.options.wheelMultiplier,this.emitter.emit(`scroll`,{deltaX:t,deltaY:n,event:e})};onWindowResize=()=>{this.window={width:window.innerWidth,height:window.innerHeight}}};let f=e=>Math.min(1,1.001-2**(-10*e));var p=class{_isScrolling=!1;_isStopped=!1;_isLocked=!1;_preventNextNativeScrollEvent=!1;_resetVelocityTimeout=null;_rafId=null;_isDraggingSelection=!1;reducedMotionMediaQuery=window.matchMedia(`(prefers-reduced-motion: reduce)`);isTouching;isIos;time=0;userData={};lastVelocity=0;velocity=0;direction=0;options;targetScroll;animatedScroll;animate=new a;emitter=new c;dimensions;virtualScroll;constructor({wrapper:t=window,content:n=document.documentElement,eventsTarget:r=t,smoothWheel:i=!0,syncTouch:a=!1,syncTouchLerp:o=.075,touchInertiaExponent:c=1.7,duration:l,easing:u,lerp:p=.1,infinite:m=!1,orientation:h=`vertical`,gestureOrientation:g=h===`horizontal`?`both`:`vertical`,touchMultiplier:_=1,wheelMultiplier:v=1,autoResize:y=!0,prevent:b,virtualScroll:x,overscroll:S=!0,autoRaf:C=!1,anchors:w=!1,autoToggle:T=!1,allowNestedScroll:E=!1,__experimental__naiveDimensions:D=!1,naiveDimensions:O=D,stopInertiaOnNavigate:k=!1,respectReducedMotion:A=!0}={}){window.lenisVersion=e,window.lenis||(window.lenis={}),window.lenis.version=e,h===`horizontal`&&(window.lenis.horizontal=!0),a===!0&&(window.lenis.touch=!0),this.isIos=/(iPad|iPhone|iPod)/g.test(navigator.userAgent),(!t||t===document.documentElement)&&(t=window),typeof l==`number`&&typeof u!=`function`?u=f:typeof u==`function`&&typeof l!=`number`&&(l=1),this.options={wrapper:t,content:n,eventsTarget:r,smoothWheel:i,syncTouch:a,syncTouchLerp:o,touchInertiaExponent:c,duration:l,easing:u,lerp:p,infinite:m,gestureOrientation:g,orientation:h,touchMultiplier:_,wheelMultiplier:v,autoResize:y,prevent:b,virtualScroll:x,overscroll:S,autoRaf:C,anchors:w,autoToggle:T,allowNestedScroll:E,naiveDimensions:O,stopInertiaOnNavigate:k,respectReducedMotion:A},this.dimensions=new s(t,n,{autoResize:y}),this.updateClassName(),this.targetScroll=this.animatedScroll=this.actualScroll,this.options.wrapper.addEventListener(`scroll`,this.onNativeScroll),this.options.wrapper.addEventListener(`scrollend`,this.onScrollEnd,{capture:!0}),(this.options.anchors||this.options.stopInertiaOnNavigate)&&this.options.wrapper.addEventListener(`click`,this.onClick),this.options.wrapper.addEventListener(`pointerdown`,this.onPointerDown),this.virtualScroll=new d(r,{touchMultiplier:_,wheelMultiplier:v}),this.virtualScroll.on(`scroll`,this.onVirtualScroll),this.options.autoToggle&&(this.checkOverflow(),this.rootElement.addEventListener(`transitionend`,this.onTransitionEnd)),this.options.autoRaf&&(this._rafId=requestAnimationFrame(this.raf))}destroy(){this.emitter.destroy(),this.options.wrapper.removeEventListener(`scroll`,this.onNativeScroll),this.options.wrapper.removeEventListener(`scrollend`,this.onScrollEnd,{capture:!0}),this.options.wrapper.removeEventListener(`pointerdown`,this.onPointerDown),(this.options.anchors||this.options.stopInertiaOnNavigate)&&this.options.wrapper.removeEventListener(`click`,this.onClick),this.virtualScroll.destroy(),this.dimensions.destroy(),this.cleanUpClassName(),this._rafId&&cancelAnimationFrame(this._rafId)}on(e,t){return this.emitter.on(e,t)}off(e,t){return this.emitter.off(e,t)}onScrollEnd=e=>{e instanceof CustomEvent||(this.isScrolling===`smooth`||this.isScrolling===!1)&&e.stopPropagation()};dispatchScrollendEvent=()=>{this.options.wrapper.dispatchEvent(new CustomEvent(`scrollend`,{bubbles:this.options.wrapper===window,detail:{lenisScrollEnd:!0}}))};get overflow(){let e=this.isHorizontal?`overflow-x`:`overflow-y`;return getComputedStyle(this.rootElement)[e]}checkOverflow(){[`hidden`,`clip`].includes(this.overflow)?this.internalStop():this.internalStart()}onTransitionEnd=e=>{e.propertyName?.includes(`overflow`)&&e.target===this.rootElement&&this.checkOverflow()};setScroll(e){this.isHorizontal?this.options.wrapper.scrollTo({left:e,behavior:`instant`}):this.options.wrapper.scrollTo({top:e,behavior:`instant`})}onClick=e=>{let t=e.composedPath().filter(e=>e instanceof HTMLAnchorElement&&e.href).map(e=>new URL(e.href)),n=new URL(window.location.href);if(this.options.anchors){let e=t.find(e=>n.host===e.host&&n.pathname===e.pathname&&e.hash);if(e){let t=typeof this.options.anchors==`object`&&this.options.anchors?this.options.anchors:void 0,n=decodeURIComponent(e.hash);this.scrollTo(n,t);return}}if(this.options.stopInertiaOnNavigate&&t.some(e=>n.host===e.host&&n.pathname!==e.pathname)){this.reset();return}};onPointerDown=e=>{e.button===1&&this.reset()};isTouchOnSelectionHandle(e){let t=window.getSelection();if(!t||t.isCollapsed||t.rangeCount===0)return!1;let n=e.targetTouches[0]??e.changedTouches[0];if(!n)return!1;let r=t.getRangeAt(0).getClientRects();if(r.length===0)return!1;let i=r[0],a=r[r.length-1],o=Math.hypot(n.clientX-i.left,n.clientY-i.top)<=40,s=Math.hypot(n.clientX-a.right,n.clientY-a.bottom)<=40;return o||s}onVirtualScroll=e=>{if(typeof this.options.virtualScroll==`function`&&this.options.virtualScroll(e)===!1)return;let{deltaX:t,deltaY:n,event:r}=e;if(this.emitter.emit(`virtual-scroll`,{deltaX:t,deltaY:n,event:r}),r.ctrlKey||r.lenisStopPropagation)return;let i=r.type.includes(`touch`),a=r.type.includes(`wheel`);if(i&&this.isIos&&(r.type===`touchstart`&&(this._isDraggingSelection=this.isTouchOnSelectionHandle(r)),this._isDraggingSelection)){r.type===`touchend`&&(this._isDraggingSelection=!1);return}this.isTouching=r.type===`touchstart`||r.type===`touchmove`;let o=t===0&&n===0;if(this.options.syncTouch&&i&&r.type===`touchstart`&&o&&!this.isStopped&&!this.isLocked){this.reset();return}let s=this.options.gestureOrientation===`vertical`&&n===0||this.options.gestureOrientation===`horizontal`&&t===0;if(o||s)return;let c=r.composedPath();c=c.slice(0,c.indexOf(this.rootElement));let l=this.options.prevent,u=Math.abs(t)>=Math.abs(n)?`horizontal`:`vertical`;if(c.find(e=>e instanceof HTMLElement&&(typeof l==`function`&&l?.(e)||e.hasAttribute?.(`data-lenis-prevent`)||u===`vertical`&&e.hasAttribute?.(`data-lenis-prevent-vertical`)||u===`horizontal`&&e.hasAttribute?.(`data-lenis-prevent-horizontal`)||i&&e.hasAttribute?.(`data-lenis-prevent-touch`)||a&&e.hasAttribute?.(`data-lenis-prevent-wheel`)||this.options.allowNestedScroll&&this.hasNestedScroll(e,{deltaX:t,deltaY:n}))))return;if(this.isStopped||this.isLocked){r.cancelable&&r.preventDefault();return}if(!(this.options.syncTouch&&i||this.options.smoothWheel&&a)){this.isScrolling=`native`,this.animate.stop(),r.lenisStopPropagation=!0;return}let d=n;this.options.gestureOrientation===`both`?d=Math.abs(n)>Math.abs(t)?n:t:this.options.gestureOrientation===`horizontal`&&(d=t),(!this.options.overscroll||this.options.infinite||this.options.wrapper!==window&&this.limit>0&&(this.animatedScroll>0&&this.animatedScroll<this.limit||this.animatedScroll===0&&n>0||this.animatedScroll===this.limit&&n<0))&&(r.lenisStopPropagation=!0),r.cancelable&&r.preventDefault();let f=i&&this.options.syncTouch,p=i&&r.type===`touchend`;p&&(d=Math.sign(d)*Math.abs(this.velocity)**this.options.touchInertiaExponent),this.scrollTo(this.targetScroll+d,{programmatic:!1,...f?{lerp:p?this.options.syncTouchLerp:1}:{lerp:this.options.lerp,duration:this.options.duration,easing:this.options.easing}})};resize(){this.dimensions.resize(),this.animatedScroll=this.targetScroll=this.actualScroll,this.emit()}emit(){this.emitter.emit(`scroll`,this)}onNativeScroll=()=>{if(this._resetVelocityTimeout!==null&&(clearTimeout(this._resetVelocityTimeout),this._resetVelocityTimeout=null),this._preventNextNativeScrollEvent){this._preventNextNativeScrollEvent=!1;return}if(this.isScrolling===!1||this.isScrolling===`native`){let e=this.animatedScroll;this.animatedScroll=this.targetScroll=this.actualScroll,this.lastVelocity=this.velocity,this.velocity=this.animatedScroll-e,this.direction=Math.sign(this.animatedScroll-e),this.isStopped||(this.isScrolling=`native`),this.emit(),this.velocity!==0&&(this._resetVelocityTimeout=setTimeout(()=>{this.lastVelocity=this.velocity,this.velocity=0,this.isScrolling=!1,this.emit()},400))}};reset(){this.isLocked=!1,this.isScrolling=!1,this.animatedScroll=this.targetScroll=this.actualScroll,this.lastVelocity=this.velocity=0,this.animate.stop()}start(){if(this.isStopped){if(this.options.autoToggle){this.rootElement.style.removeProperty(`overflow`);return}this.internalStart()}}internalStart(){this.isStopped&&(this.reset(),this.isStopped=!1,this.emit())}stop(){if(!this.isStopped){if(this.options.autoToggle){this.rootElement.style.setProperty(`overflow`,`clip`);return}this.internalStop()}}internalStop(){this.isStopped||(this.reset(),this.isStopped=!0,this.emit())}raf=e=>{let t=e-(this.time||e);this.time=e,this.animate.advance(t*.001),this.options.autoRaf&&(this._rafId=requestAnimationFrame(this.raf))};scrollTo(e,{offset:n=0,immediate:r=!1,lock:i=!1,programmatic:a=!0,lerp:o=a?this.options.lerp:void 0,duration:s=a?this.options.duration:void 0,easing:c=a?this.options.easing:void 0,onStart:l,onComplete:u,force:d=!1,userData:p}={}){if(this.prefersReducedMotion&&(a?r=!0:(o=1,s=void 0,c=void 0)),(this.isStopped||this.isLocked)&&!d)return;let m=e,h=n;if(typeof m==`string`&&[`top`,`left`,`start`,`#`].includes(m))m=0;else if(typeof m==`string`&&[`bottom`,`right`,`end`].includes(m))m=this.limit;else{let e=null;if(typeof m==`string`?(e=m.startsWith(`#`)?document.getElementById(m.slice(1)):document.querySelector(m),e||(m===`#top`?m=0:console.warn(`Lenis: Target not found`,m))):m instanceof HTMLElement&&m?.nodeType&&(e=m),e){if(this.options.wrapper!==window){let e=this.rootElement.getBoundingClientRect();h-=this.isHorizontal?e.left:e.top}let t=e.getBoundingClientRect(),n=getComputedStyle(e),r=this.isHorizontal?Number.parseFloat(n.scrollMarginLeft):Number.parseFloat(n.scrollMarginTop),i=getComputedStyle(this.rootElement),a=this.isHorizontal?Number.parseFloat(i.scrollPaddingLeft):Number.parseFloat(i.scrollPaddingTop);m=(this.isHorizontal?t.left:t.top)+this.animatedScroll-(Number.isNaN(r)?0:r)-(Number.isNaN(a)?0:a)}}if(typeof m==`number`){if(m+=h,this.options.infinite){if(a){this.targetScroll=this.animatedScroll=this.scroll;let e=m-this.animatedScroll;e>this.limit/2?m-=this.limit:e<-this.limit/2&&(m+=this.limit)}}else m=t(0,m,this.limit);if(m===this.targetScroll){l?.(this),u?.(this);return}if(this.userData=p??{},r){this.animatedScroll=this.targetScroll=m,this.setScroll(this.scroll),this.reset(),this.preventNextNativeScrollEvent(),this.emit(),u?.(this),this.userData={},requestAnimationFrame(()=>{this.dispatchScrollendEvent()});return}a||(this.targetScroll=m),typeof s==`number`&&typeof c!=`function`?c=f:typeof c==`function`&&typeof s!=`number`&&(s=1),this.animate.fromTo(this.animatedScroll,m,{duration:s,easing:c,lerp:o,onStart:()=>{i&&(this.isLocked=!0),this.isScrolling=`smooth`,l?.(this)},onUpdate:(e,t)=>{this.isScrolling=`smooth`,this.lastVelocity=this.velocity,this.velocity=e-this.animatedScroll,this.direction=Math.sign(this.velocity),this.animatedScroll=e,this.setScroll(this.scroll),a&&(this.targetScroll=e),t||this.emit(),t&&(this.reset(),this.emit(),u?.(this),this.userData={},requestAnimationFrame(()=>{this.dispatchScrollendEvent()}),this.preventNextNativeScrollEvent())}})}}preventNextNativeScrollEvent(){this._preventNextNativeScrollEvent=!0,requestAnimationFrame(()=>{this._preventNextNativeScrollEvent=!1})}hasNestedScroll(e,{deltaX:t,deltaY:n}){let r=Date.now();e._lenis||={};let i=e._lenis,a,o,s,c,l,u,d,f,p,m;if(r-(i.time??0)>2e3){i.time=Date.now();let t=window.getComputedStyle(e);if(i.computedStyle=t,a=[`auto`,`overlay`,`scroll`].includes(t.overflowX),o=[`auto`,`overlay`,`scroll`].includes(t.overflowY),l=[`auto`].includes(t.overscrollBehaviorX),u=[`auto`].includes(t.overscrollBehaviorY),i.hasOverflowX=a,i.hasOverflowY=o,!(a||o))return!1;d=e.scrollWidth,f=e.scrollHeight,p=e.clientWidth,m=e.clientHeight,s=d>p,c=f>m,i.isScrollableX=s,i.isScrollableY=c,i.scrollWidth=d,i.scrollHeight=f,i.clientWidth=p,i.clientHeight=m,i.hasOverscrollBehaviorX=l,i.hasOverscrollBehaviorY=u}else s=i.isScrollableX,c=i.isScrollableY,a=i.hasOverflowX,o=i.hasOverflowY,d=i.scrollWidth,f=i.scrollHeight,p=i.clientWidth,m=i.clientHeight,l=i.hasOverscrollBehaviorX,u=i.hasOverscrollBehaviorY;if(!(a&&s||o&&c))return!1;let h=Math.abs(t)>=Math.abs(n)?`horizontal`:`vertical`,g,_,v,y,b,x;if(h===`horizontal`)g=Math.round(e.scrollLeft),_=d-p,v=t,y=a,b=s,x=l;else if(h===`vertical`)g=Math.round(e.scrollTop),_=f-m,v=n,y=o,b=c,x=u;else return!1;return!x&&(g>=_||g<=0)?!0:(v>0?g<_:g>0)&&y&&b}get rootElement(){return this.options.wrapper===window?document.documentElement:this.options.wrapper}get limit(){return this.options.naiveDimensions?this.isHorizontal?this.rootElement.scrollWidth-this.rootElement.clientWidth:this.rootElement.scrollHeight-this.rootElement.clientHeight:this.dimensions.limit[this.isHorizontal?`x`:`y`]}get isHorizontal(){return this.options.orientation===`horizontal`}get actualScroll(){let e=this.options.wrapper;return this.isHorizontal?e.scrollX??e.scrollLeft:e.scrollY??e.scrollTop}get scroll(){return this.options.infinite?i(this.animatedScroll,this.limit):this.animatedScroll}get progress(){return this.limit===0?1:this.scroll/this.limit}get isScrolling(){return this._isScrolling}set isScrolling(e){this._isScrolling!==e&&(this._isScrolling=e,this.updateClassName())}get isStopped(){return this._isStopped}set isStopped(e){this._isStopped!==e&&(this._isStopped=e,this.updateClassName())}get isLocked(){return this._isLocked}set isLocked(e){this._isLocked!==e&&(this._isLocked=e,this.updateClassName())}get isSmooth(){return this.isScrolling===`smooth`}get prefersReducedMotion(){return this.options.respectReducedMotion&&this.reducedMotionMediaQuery.matches}get className(){let e=`lenis`;return this.options.autoToggle&&(e+=` lenis-autoToggle`),this.isStopped&&(e+=` lenis-stopped`),this.isLocked&&(e+=` lenis-locked`),this.isScrolling&&(e+=` lenis-scrolling`),this.isScrolling===`smooth`&&(e+=` lenis-smooth`),e}updateClassName(){this.cleanUpClassName(),this.className.split(` `).forEach(e=>{this.rootElement.classList.add(e)})}cleanUpClassName(){for(let e of Array.from(this.rootElement.classList))(e===`lenis`||e.startsWith(`lenis-`))&&this.rootElement.classList.remove(e)}};globalThis.Lenis=p,globalThis.Lenis.prototype=p.prototype})();
+
+/* TEMPLE v4 · portada sobre papel: lápiz -> color -> franja -> el plato rueda -> capote -> logotipo */
+(function(){
+  var sec = document.querySelector('.faena');
+  if (!sec || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var q = function(s){ return sec.querySelector(s); };
+  var stage = q('.faena-stage'), color = q('.fa-color'), aguja = q('.fa-aguja'), figura = q('.fa-figura'), titular = q('.fa-titular'),
+      suelo = q('.fa-suelo'), franja = q('.fa-franja'), plato = q('.fa-plato'), pasos = sec.querySelectorAll('.fa-pasos span'),
+      fondo = q('.fa-fondo'), capote = q('.fa-capote'), oro = q('.fa-oro'), lema = q('.fa-lema'), wm = q('.fa-final-wm'),
+      nca = q('.fa-final-nca'), claim = q('.fa-final-claim'), hint = q('.hero-scroll');
+  sec.classList.add('faena-on');
+  var suave = function(p, a, b){ var t = Math.min(1, Math.max(0, (p - a) / (b - a))); return t * t * (3 - 2 * t); };
+  var lin = function(p, a, b){ return Math.min(1, Math.max(0, (p - a) / (b - a))); };
+  var T = {l: 64 / 1020, r: 82.5 / 1020, t: 21 / 145, b: 126 / 145};   // palo de la T dentro del logotipo
+  var geo = null, ticking = false, last = -1;
+  var medir = function(){
+    var s = stage.getBoundingClientRect(), w = wm.getBoundingClientRect(), f = figura.getBoundingClientRect();
+    geo = {W: s.width, H: s.height, l: w.left - s.left + w.width * T.l, r: w.left - s.left + w.width * T.r,
+           t: w.top - s.top + w.height * T.t, b: w.top - s.top + w.height * T.b,
+           suelo: parseFloat(getComputedStyle(stage).getPropertyValue('--suelo')) || 74,
+           d: plato.getBoundingClientRect().width, figL: f.left - s.left, figW: f.width};
+    last = -1;
+  };
+  var pinta = function(){
+    ticking = false;
+    var total = sec.offsetHeight - stage.offsetHeight;
+    var p = total > 0 ? Math.min(1, Math.max(0, -sec.getBoundingClientRect().top / total)) : 0;
+    if (Math.abs(p - last) < 0.0004) return;
+    last = p;
+    if (!geo) medir();
+    var G = geo;
+    var a = suave(p, .07, .24), b = suave(p, .23, .32), r = lin(p, .30, .56), c = suave(p, .60, .72), d = suave(p, .76, .88), e = suave(p, .88, .95), f = suave(p, .93, .99);
+    // 1 · el lápiz toma color, de derecha a izquierda
+    var x = (1 - a) * 100;
+    color.style.clipPath = 'inset(0 0 0 ' + x.toFixed(2) + '%)';
+    aguja.style.left = (G.figL + G.figW * x / 100).toFixed(1) + 'px';
+    aguja.style.opacity = (a > .005 && a < .995) ? .9 : 0;
+    if (hint) hint.style.opacity = (0.6 * (1 - lin(p, 0, .05))).toFixed(2);
+    // 2 · la franja vino sube hasta la raya, con su cinta de datos
+    franja.style.clipPath = 'inset(' + ((1 - b) * 100).toFixed(2) + '% 0 0 0)';
+    // 3 · el titular deja paso a los tres tiempos del método y el plato rueda por la barrera
+    titular.style.opacity = (1 - lin(p, .26, .32)).toFixed(3);
+    titular.style.visibility = p > .33 ? 'hidden' : '';
+    var viaje = G.W * (G.W < 760 ? .34 : .22) + G.d;
+    var px = -G.d + suave(r, 0, 1) * viaje;
+    plato.style.transform = 'translateX(' + px.toFixed(1) + 'px) rotate(' + ((px + G.d) / (G.d / 2) * 57.2958).toFixed(1) + 'deg)';
+    plato.style.opacity = p < .29 ? 0 : 1;
+    for (var i = 0; i < pasos.length; i++){
+      var k = lin(r, .12 + i * .27, .30 + i * .27);
+      pasos[i].style.opacity = k.toFixed(3);
+      pasos[i].style.transform = 'translateY(' + ((1 - k) * 12).toFixed(1) + 'px)';
+    }
+    // 4 · el capote lo cubre todo; 5 · se pliega hasta ser el palo de la T y se vuelve oro
+    var top = G.suelo * (1 - c), L = 0, R = 0, B = 0;
+    if (c <= 0) top = 100;
+    if (d > 0){ top = d * (G.t / G.H * 100); B = d * ((G.H - G.b) / G.H * 100); L = d * (G.l / G.W * 100); R = d * ((G.W - G.r) / G.W * 100); }
+    capote.style.clipPath = 'inset(' + top.toFixed(3) + '% ' + R.toFixed(3) + '% ' + B.toFixed(3) + '% ' + L.toFixed(3) + '%)';
+    capote.style.opacity = (1 - lin(e, .25, .7)).toFixed(3);
+    oro.style.opacity = lin(d, .7, 1).toFixed(3);
+    lema.style.opacity = (lin(c, .55, 1) * (1 - lin(d, 0, .28))).toFixed(3);
+    lema.style.transform = 'translateY(' + ((1 - lin(c, .55, 1)) * 18).toFixed(1) + 'px)';
+    fondo.style.opacity = c >= 1 ? 1 : 0;
+    // 6 · el logotipo real nace del palo; lema y presentación
+    wm.style.clipPath = 'inset(0 ' + ((1 - e) * (1 - T.r) * 100).toFixed(2) + '% 0 ' + ((1 - e) * T.l * 100).toFixed(2) + '%)';
+    wm.style.opacity = d >= 1 ? 1 : 0;
+    nca.style.opacity = f.toFixed(3);
+    nca.style.transform = 'translateY(' + ((1 - f) * 10).toFixed(1) + 'px)';
+    claim.style.opacity = suave(p, .95, .995).toFixed(3);
+  };
+  var pide = function(){ if (!ticking){ ticking = true; requestAnimationFrame(pinta); } };
+  addEventListener('scroll', pide, {passive:true});
+  addEventListener('resize', function(){ geo = null; pide(); });
+  addEventListener('load', function(){ geo = null; last = -1; pide(); });
+  pinta();
+})();
+/* v3 · progreso de cada elemento marcado con data-sc: escribe --t (0 a 1) mientras cruza la pantalla */
+(function(){
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var els = Array.prototype.slice.call(document.querySelectorAll('[data-sc]'));
+  if (!els.length || !window.CSS || !CSS.supports('opacity', 'clamp(0, 1, 1)')) return;
+  document.documentElement.classList.add('sc-on');
+  document.querySelectorAll('[data-sc="dibujo"] path:not(.pt), [data-sc="dibujo"] circle, [data-sc="dibujo"] ellipse, [data-sc="dibujo"] line').forEach(function(p){ p.setAttribute('pathLength', '1'); });
+  // Cada gesto arranca cuando su elemento ya está bien a la vista y dura un tiempo fijo:
+  // así se ve entero, se llegue despacio o deprisa. Si el elemento sale de pantalla, se rearma.
+  var dur  = {foto:1400, dibujo:2200, lista:1600, titulo:800, cierre:2600};
+  var pausa = {foto:350, dibujo:150, lista:100, titulo:0, cierre:150};          // el lápiz se deja ver antes de tomar color
+  var visto = {foto:.6, dibujo:.5, lista:.3, titulo:.9, cierre:.45};           // parte del elemento que debe estar en pantalla
+  var pon = function(el, t){
+    el.style.setProperty('--t', t.toFixed(4));
+    if (el.getAttribute('data-sc') === 'foto') el.style.setProperty('--vivo', (t > .004 && t < .996) ? '1' : '0');
+  };
+  var corre = function(el){
+    if (el.__corre) return;
+    el.__corre = true;
+    var tipo = el.getAttribute('data-sc'), D = dur[tipo] || 1200, P = pausa[tipo] || 0, t0 = null;
+    var paso = function(now){
+      if (!el.__corre) return;
+      if (t0 === null) t0 = now + P;
+      var k = Math.min(1, Math.max(0, (now - t0) / D));
+      pon(el, (tipo === 'foto' || tipo === 'titulo') ? k * k * (3 - 2 * k) : k);
+      if (k < 1) requestAnimationFrame(paso);
+    };
+    requestAnimationFrame(paso);
+  };
+  var rearma = function(el){ el.__corre = false; pon(el, 0); };
+  var paralajes = [];
+  els.forEach(function(el){
+    var tipo = el.getAttribute('data-sc');
+    if (tipo === 'paralaje' || !('IntersectionObserver' in window)){ if (tipo === 'paralaje') paralajes.push(el); else pon(el, 1); return; }
+    pon(el, 0);
+    var alto = el.getBoundingClientRect().height || 1;
+    var umbral = Math.min(visto[tipo] || .5, .7 * innerHeight / alto);
+    new IntersectionObserver(function(entries){
+      var en = entries[entries.length - 1];
+      if (en.intersectionRatio >= umbral) corre(el);
+      else if (!en.isIntersecting) rearma(el);
+    }, {threshold:[0, umbral]}).observe(el);
+  });
+  // el paralaje de Belmonte sí acompaña al desplazamiento
+  var ticking = false;
+  var pinta = function(){
+    ticking = false;
+    var vh = innerHeight;
+    paralajes.forEach(function(el){
+      var r = el.getBoundingClientRect();
+      el.style.setProperty('--t', Math.min(1, Math.max(0, (vh - r.top) / (vh + r.height))).toFixed(4));
+    });
+  };
+  var pide = function(){ if (!ticking){ ticking = true; requestAnimationFrame(pinta); } };
+  addEventListener('scroll', pide, {passive:true});
+  addEventListener('resize', pide);
+  pinta();
+})();
+
+/* TEMPLE v5 · pulido: telón, desplazamiento con inercia, actos de la portada y títulos */
+(function(){
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var html = document.documentElement;
+  // telón: se levanta cuando la página ha cargado, nunca antes de 1,2 s ni después de 3 s
+  if (html.classList.contains('intro')){
+    var t0 = performance.now(), hecho = false;
+    var abre = function(){ if (hecho) return; hecho = true; setTimeout(function(){ html.classList.add('listo'); }, Math.max(0, 1250 - (performance.now() - t0))); };
+    if (document.readyState === 'complete') abre(); else addEventListener('load', abre);
+    setTimeout(abre, 3000);
+  }
+  if (reduced) return;
+  // desplazamiento con inercia (solo con ratón o trackpad; en táctil se deja el nativo)
+  if (window.Lenis && window.matchMedia('(hover: hover) and (pointer: fine)').matches){
+    try { window.__lenis = new Lenis({autoRaf: true, anchors: true, lerp: 0.11, wheelMultiplier: 1}); } catch (e) {}
+  }
+  // actos de la portada y profundidad de la figura
+  var sec = document.querySelector('.faena'), stage = sec && sec.querySelector('.faena-stage');
+  if (sec && stage){
+    var actos = sec.querySelector('.fa-actos'), items = actos ? actos.children : [], figura = sec.querySelector('.fa-figura'), titular = sec.querySelector('.fa-titular');
+    var cortes = [0, .08, .24, .60, .82], ticking = false, ultimo = -1;
+    var pinta = function(){
+      ticking = false;
+      var total = sec.offsetHeight - stage.offsetHeight;
+      var p = total > 0 ? Math.min(1, Math.max(0, -sec.getBoundingClientRect().top / total)) : 0;
+      var k = Math.min(1, p / .3), s = k * k * (3 - 2 * k);
+      if (figura) figura.style.transform = 'scale(' + (1 + .045 * s).toFixed(4) + ')';
+      if (titular) titular.style.transform = 'translateY(' + (-26 * s).toFixed(1) + 'px)';
+      var n = 0; for (var i = 0; i < cortes.length; i++) if (p >= cortes[i]) n = i;
+      if (actos && n !== ultimo){ ultimo = n; for (var j = 0; j < items.length; j++) items[j].classList.toggle('activo', j === n); }
+      if (actos) actos.classList.toggle('oscuro', p > .655);
+    };
+    var pide = function(){ if (!ticking){ ticking = true; requestAnimationFrame(pinta); } };
+    addEventListener('scroll', pide, {passive:true}); addEventListener('resize', pide); pinta();
+  }
+  // títulos de sección
+  if ('IntersectionObserver' in window && html.classList.contains('sc-on')){
+    var io = new IntersectionObserver(function(es){ es.forEach(function(e){ if (e.isIntersecting){ e.target.classList.add('visto'); io.unobserve(e.target); } }); }, {threshold: .6});
+    document.querySelectorAll('.mtitle').forEach(function(h){ io.observe(h); });
+  } else { document.querySelectorAll('.mtitle').forEach(function(h){ h.classList.add('visto'); }); }
+})();
+</script>
+</body>
+</html>
